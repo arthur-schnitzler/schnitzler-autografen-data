@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Hier soll ein Verzeichnis aller Autografen von Arthur Schnitzler (1862–1931) entstehen.
+            Das Unternehmen ist Work-in-Progress und dient in erster Linie dazu, dass wir eine
+            Möglichkeit haben, wenn wir auf von ihm Geschriebenes stoßen, das auch
+            verzeichnen können.</p>
+         <p>Um einen Eindruck zu den Verwahrorten von Arthur Schnitzler zu
+            bekommen, verweisen wir auf den Wikipedia-Eintrag <ref type="URL" target="https://de.wikipedia.org/wiki/Arthur_Schnitzlers_Nachlass">Arthur Schnitzlers Nachlass</ref> bzw. für
+            die Briefe auf <ref type="URL" target="https://de.wikipedia.org/wiki/Arthur_Schnitzlers_Korrespondenz">Arthur Schnitzlers Korrespondenz</ref>. Die grundsätzliche Idee besteht darin,
+            dass jegliches von Arthur Schnitzler beschriebene oder besessene Papier referenzierbar
+            wird und das auch immer mehr verfeinert werden kann. Wir bitten auch um Kontaktaufnahme,
+            wenn Ergänzungen oder Korrekturen zu machen sind. Oder auch sonst Austausch gewünscht
+            ist. Wir, das sind die Menschen hinter: <ref target="https://schnitzler-briefe.acdh.oeaw.ac.at/" type="URL">Arthur Schnitzler: Briefwechsel mit Autorinnen
+            und Autoren</ref></p>
+      </body>
+   </text>
+</TEI>
