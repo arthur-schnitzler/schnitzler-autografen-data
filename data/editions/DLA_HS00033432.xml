@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1907-01">01.1907</title>
-            <title level="a">Unbekannt &lt;Theaterdirektor in Bukarest&gt; an Eirich, Otto F.</title>
+            <title level="a">Unbekannt an Eirich, Otto F.</title>
             <author>Unbekannt &lt;Theaterdirektor in Bukarest&gt;</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.02857,39</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00033432</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -111,6 +110,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00033432"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1970-04-07">07.04.1970</title>
-            <title level="a">Holt, Rinehart and Winston, Inc. Publishers &lt;New York, NY&gt; an Faseth, Inge</title>
+            <title level="a">Holt, Rinehart and Winston, Inc. Publishers an Faseth, Inge</title>
             <author>Bond, Alison M.</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.05275</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00063939</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,11 +98,13 @@
          <correspDesc>
             <correspAction type="sent">
                <persName>Bond, Alison M.</persName>
+               <orgName>Holt, Rinehart and Winston, Inc. Publishers</orgName>
                <date when="1970-04-07">1970-04-07</date>
                <placeName>New York, NY</placeName>
             </correspAction>
             <correspAction type="received">
                <persName>Faseth, Inge</persName>
+               <orgName>Fritz-Molden-Verlag</orgName>
             </correspAction>
 
          </correspDesc>
@@ -112,6 +113,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00063939"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

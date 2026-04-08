@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1926-02-24">24.02.1926</title>
-            <title level="a">Kleines Theater &lt;Kassel&gt; an Schnitzler, Arthur</title>
+            <title level="a">Kleines Theater an Schnitzler, Arthur</title>
             <author ref="#pmb119253">Ritter, Karl</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.03689</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00032778</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb119253">Ritter, Karl</persName>
+               <orgName ref="#pmb45430">Kleines Theater</orgName>
                <date when="1926-02-24">1926-02-24</date>
                <placeName>Cassel</placeName>
             </correspAction>
@@ -114,6 +114,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00032778"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

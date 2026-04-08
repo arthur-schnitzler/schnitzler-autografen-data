@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.02808</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00033252</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName>Duesel, Friedrich</persName>
+               <orgName>Westermanns illustrierte deutsche Monatshefte</orgName>
                <date when="1905-02-15">1905-02-15</date>
                <placeName>Friedenau (Berlin)</placeName>
             </correspAction>
@@ -112,6 +112,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00033252"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

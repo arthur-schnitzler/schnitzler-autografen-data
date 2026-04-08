@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.05222</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00076112</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -104,6 +103,7 @@
             </correspAction>
             <correspAction type="received">
                <persName>Hilbert, Egon</persName>
+               <orgName>Wiener Festwochen</orgName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_6742">Cysarz, Herbert</ref>
@@ -114,6 +114,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00076112"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

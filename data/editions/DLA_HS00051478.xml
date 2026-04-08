@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1931-07-10">10.07.1931</title>
-            <title level="a">Ostmarken Rundfunk &lt;Königsberg&gt; an Paul-Zsolnay-Verlag &lt;Wien&gt;</title>
+            <title level="a">Ostmarken Rundfunk an Paul-Zsolnay-Verlag</title>
 
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.05331</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00051478</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -98,10 +97,12 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
+               <orgName>Ostmarken Rundfunk</orgName>
                <date when="1931-07-10">1931-07-10</date>
                <placeName>Königsberg</placeName>
             </correspAction>
             <correspAction type="received">
+               <orgName>Paul-Zsolnay-Verlag</orgName>
             </correspAction>
 
          </correspDesc>
@@ -110,6 +111,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00051478"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

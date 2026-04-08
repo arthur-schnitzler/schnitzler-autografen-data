@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1930-02-26">26.02.1930</title>
-            <title level="a">Curtis Brown LTD. an Theatre Guild &lt;New York&gt;</title>
+            <title level="a">Curtis Brown LTD. an Theatre Guild</title>
 
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>00.85.60</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00086485</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -98,10 +97,12 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
+               <orgName>Curtis Brown LTD.</orgName>
                <date when="1930-02-26">1930-02-26</date>
                <placeName>New York, NY</placeName>
             </correspAction>
             <correspAction type="received">
+               <orgName>Theatre Guild</orgName>
             </correspAction>
 
          </correspDesc>
@@ -110,6 +111,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00086485"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

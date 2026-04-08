@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.02586</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00032511</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName>Borchard, ...</persName>
+               <orgName ref="#pmb29589">Elegante Welt</orgName>
                <date when="1919-09-23">1919-09-23</date>
                <placeName>Berlin-Charlottenburg</placeName>
             </correspAction>
@@ -112,6 +112,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00032511"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

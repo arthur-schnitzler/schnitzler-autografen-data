@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1955-06-24">24.06.1955</title>
-            <title level="a">Wittenberg, Carrington and Farnsworth &lt;New York, NY&gt; an Schnitzler, Heinrich</title>
+            <title level="a">Wittenberg, Carrington and Farnsworth an Schnitzler, Heinrich</title>
 
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.05489</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00052744</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -98,6 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
+               <orgName>Wittenberg, Carrington and Farnsworth</orgName>
                <date when="1955-06-24">1955-06-24</date>
                <placeName>New York, NY</placeName>
             </correspAction>
@@ -111,6 +111,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00052744"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

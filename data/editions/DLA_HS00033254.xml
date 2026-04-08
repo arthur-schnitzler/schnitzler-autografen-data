@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.02806</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00033254</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -98,6 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
+               <orgName ref="#pmb29203">Dürr &amp; Weber</orgName>
                <date when="1919-12-05">1919-12-05</date>
                <placeName ref="#pmb864">Leipzig</placeName>
             </correspAction>
@@ -111,6 +111,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00033254"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

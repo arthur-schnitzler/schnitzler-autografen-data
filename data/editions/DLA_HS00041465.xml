@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.04313,1-7</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00041465</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb12537">Robert, Eugen</persName>
+               <orgName>Hebbel-Theater</orgName>
                <date notBefore="1907" notAfter="1909">1907/1909</date>
                <placeName ref="#pmb168">Berlin</placeName>
             </correspAction>
@@ -114,6 +114,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00041465"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

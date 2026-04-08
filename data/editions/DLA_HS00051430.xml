@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1889-12-30">30.12.1889</title>
-            <title level="a">Finger, Wilhelm an Unbekannt &lt;Redaktion&gt;</title>
+            <title level="a">Finger, Wilhelm an Unbekannt</title>
             <author ref="#pmb337485">Finger, Wilhelm</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.05228</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00051430</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -103,6 +102,7 @@
                <placeName ref="#pmb873">Triest</placeName>
             </correspAction>
             <correspAction type="received">
+               <orgName>Unbekannt</orgName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_337485">Finger, Wilhelm</ref>
@@ -113,6 +113,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00051430"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

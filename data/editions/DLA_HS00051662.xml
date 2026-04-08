@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1938" notAfter="1951">1938 - 1951</title>
-            <title level="a">Schnitzler, Heinrich an University &lt;Cambridge&gt; / Library</title>
+            <title level="a">Schnitzler, Heinrich an University / Library</title>
             <author ref="#pmb12692">Schnitzler, Heinrich</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.05461,13-32</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00051662</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -104,6 +103,7 @@
                <placeName>Los Angeles, Calif.</placeName>
             </correspAction>
             <correspAction type="received">
+               <orgName>University/ Library</orgName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_12692">Schnitzler, Heinrich</ref>
@@ -114,6 +114,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00051662"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

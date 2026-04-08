@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1931-03-05">05.03.1931</title>
-            <title level="a">Die Welt am Abend &lt;Periodikum&gt; an Schnitzler, Arthur</title>
+            <title level="a">Die Welt am Abend an Schnitzler, Arthur</title>
             <author ref="#pmb337530">Friedländer, Paul</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.04858</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00034162</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb337530">Friedländer, Paul</persName>
+               <orgName>Die Welt am Abend</orgName>
                <date when="1931-03-05">1931-03-05</date>
                <placeName ref="#pmb168">Berlin</placeName>
             </correspAction>
@@ -114,6 +114,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00034162"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

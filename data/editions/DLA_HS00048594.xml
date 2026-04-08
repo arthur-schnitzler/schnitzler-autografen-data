@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1917-04-19">19.04.1917</title>
-            <title level="a">Schnitzler, Arthur an Deutsches Rotes Kreuz &lt;Deutschland, Deutsches Reich&gt;</title>
+            <title level="a">Schnitzler, Arthur an Deutsches Rotes Kreuz</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.00579</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00048594</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -102,6 +101,7 @@
                <date when="1917-04-19">1917-04-19</date>
             </correspAction>
             <correspAction type="received">
+               <orgName>Deutsches Rotes Kreuz</orgName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_2121">Schnitzler, Arthur</ref>
@@ -112,6 +112,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00048594"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

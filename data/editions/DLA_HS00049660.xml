@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1915-02-27">27.02.1915</title>
-            <title level="a">Deutsches Volkstheater &lt;Wien&gt; an Vaerturg, Marie</title>
+            <title level="a">Deutsches Volkstheater an Vaerturg, Marie</title>
 
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.02107,2</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00049660</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -98,6 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
+               <orgName>Deutsches Volkstheater</orgName>
                <date when="1915-02-27">1915-02-27</date>
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
@@ -111,6 +111,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00049660"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

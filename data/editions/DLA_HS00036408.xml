@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.03402,1-11</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00036408</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb7777">Hellmer, Arthur</persName>
+               <orgName ref="#pmb45434">Neues Theater</orgName>
                <date notBefore="1910" notAfter="1931">1910/1931</date>
                <placeName ref="#pmb146">Frankfurt am Main</placeName>
             </correspAction>
@@ -114,6 +114,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00036408"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1931-10-09">09.10.1931</title>
-            <title level="a">Szinhazi Elet &lt;Zeitschrift&gt; an Schnitzler, Arthur</title>
+            <title level="a">Szinhazi Elet an Schnitzler, Arthur</title>
             <author ref="#pmb337832">Incze, Sandor</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.04785</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00043807</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb337832">Incze, Sandor</persName>
+               <orgName>Szinhazi Elet</orgName>
                <date when="1931-10-09">1931-10-09</date>
                <placeName ref="#pmb43471">Budapest</placeName>
             </correspAction>
@@ -114,6 +114,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00043807"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

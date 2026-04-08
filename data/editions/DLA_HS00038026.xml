@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1913" notAfter="1915">1913 - 1915</title>
-            <title level="a">Deutsch-Österreichischer Verlag &lt;Wien, Leipzig&gt; an Schnitzler, Arthur</title>
+            <title level="a">Deutsch-Österreichischer Verlag an Schnitzler, Arthur</title>
             <author ref="#pmb337967">Kolm, Gustav</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.02760,1-2</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00038026</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb337967">Kolm, Gustav</persName>
+               <orgName ref="#pmb48425">Deutsch-Österreichischer Verlag</orgName>
                <date notBefore="1913" notAfter="1915">1913/1915</date>
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
@@ -114,6 +114,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00038026"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

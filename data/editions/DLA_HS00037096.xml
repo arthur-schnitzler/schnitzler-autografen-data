@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.03548,1-24</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00037096</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb11813">Jacobsohn, Siegfried</persName>
+               <orgName>Die Schaubühne</orgName>
                <date notBefore="1904" notAfter="1905">1904/1905</date>
                <placeName ref="#pmb263">Florenz</placeName>
                <placeName ref="#pmb182">Paris</placeName>
@@ -116,6 +116,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00037096"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

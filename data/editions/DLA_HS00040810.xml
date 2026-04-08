@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1928-06-28">28.06.1928</title>
-            <title level="a">Münchner Neueste Nachrichten &lt;Zeitung&gt; an Schnitzler, Arthur</title>
+            <title level="a">Münchner Neueste Nachrichten an Schnitzler, Arthur</title>
 
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.04154</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00040810</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -98,6 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
+               <orgName ref="#pmb29338">Münchner Neueste Nachrichten</orgName>
                <date when="1928-06-28">1928-06-28</date>
                <placeName ref="#pmb45258">München</placeName>
             </correspAction>
@@ -111,6 +111,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00040810"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

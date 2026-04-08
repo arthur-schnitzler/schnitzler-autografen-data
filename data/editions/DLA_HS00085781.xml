@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1930-02-10">10.02.1930</title>
-            <title level="a">Akademie der Künste &lt;Berlin&gt; an Schnitzler, Arthur</title>
+            <title level="a">Akademie der Künste an Schnitzler, Arthur</title>
             <author ref="#pmb8965">Molo, Walter von</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.02324</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00085781</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb8965">Molo, Walter von</persName>
+               <orgName>Akademie der Künste</orgName>
                <date when="1930-02-10">1930-02-10</date>
                <placeName ref="#pmb168">Berlin</placeName>
             </correspAction>
@@ -114,6 +114,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00085781"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

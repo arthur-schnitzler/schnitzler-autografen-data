@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1900" notAfter="1917">1900 - 1917</title>
-            <title level="a">Jugend &lt;Zeitschrift&gt; an Schnitzler, Arthur</title>
+            <title level="a">Jugend an Schnitzler, Arthur</title>
 
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.03591,1-7</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00037264</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -98,6 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
+               <orgName ref="#pmb29408">Jugend</orgName>
                <date notBefore="1900" notAfter="1917">1900/1917</date>
                <placeName ref="#pmb45258">München</placeName>
             </correspAction>
@@ -111,6 +111,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00037264"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

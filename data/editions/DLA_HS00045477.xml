@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1931-10-07">07.10.1931</title>
-            <title level="a">Schnitzler, Arthur an Stadtbücherei &lt;Gelsenkirchen&gt;</title>
+            <title level="a">Schnitzler, Arthur an Stadtbücherei</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.01971</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00045477</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -102,6 +101,7 @@
                <date when="1931-10-07">1931-10-07</date>
             </correspAction>
             <correspAction type="received">
+               <orgName>Stadtbücherei</orgName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_2121">Schnitzler, Arthur</ref>
@@ -112,6 +112,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00045477"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

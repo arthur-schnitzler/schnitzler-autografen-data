@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1939-03-22">22.03.1939</title>
-            <title level="a">Schnitzler, Olga an Leroi, Flesch &amp; Co. &lt;London&gt;</title>
+            <title level="a">Schnitzler, Olga an Leroi, Flesch &amp; Co.</title>
             <author ref="#pmb2173">Schnitzler, Olga</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.NZ85.0001.05426</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00052698</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -103,6 +102,7 @@
                <placeName ref="#pmb224">London</placeName>
             </correspAction>
             <correspAction type="received">
+               <orgName>Leroi, Flesch &amp; Co.</orgName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_2173">Schnitzler, Olga</ref>
@@ -113,6 +113,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00052698"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

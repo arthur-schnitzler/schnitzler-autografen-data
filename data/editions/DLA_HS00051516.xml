@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1975-09-15">15.09.1975</title>
-            <title level="a">S.-Fischer-Verlag &lt;Frankfurt, Main&gt; an Landestheater &lt;Salzburg&gt;</title>
+            <title level="a">S.-Fischer-Verlag an Landestheater</title>
             <author>Hunzinger, Stefani</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.05347</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00051516</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,10 +98,12 @@
          <correspDesc>
             <correspAction type="sent">
                <persName>Hunzinger, Stefani</persName>
+               <orgName>S.-Fischer-Verlag</orgName>
                <date when="1975-09-15">1975-09-15</date>
                <placeName ref="#pmb146">Frankfurt am Main</placeName>
             </correspAction>
             <correspAction type="received">
+               <orgName>Landestheater</orgName>
             </correspAction>
 
          </correspDesc>
@@ -111,6 +112,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00051516"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

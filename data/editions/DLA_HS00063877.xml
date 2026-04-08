@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.05336</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00063877</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,11 +98,13 @@
          <correspDesc>
             <correspAction type="sent">
                <persName>Pavel, Hans Joachim</persName>
+               <orgName>Drei-Masken-Verlag</orgName>
                <date when="1978-03-10">1978-03-10</date>
                <placeName ref="#pmb45258">München</placeName>
             </correspAction>
             <correspAction type="received">
                <persName>Benning, Achim</persName>
+               <orgName ref="#pmb36247">Burgtheater</orgName>
             </correspAction>
 
          </correspDesc>
@@ -112,6 +113,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00063877"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

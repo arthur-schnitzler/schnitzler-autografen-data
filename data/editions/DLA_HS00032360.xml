@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.02527,1-54</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00032360</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName>Bie, Oscar</persName>
+               <orgName>Neue Rundschau</orgName>
                <date notBefore="1894" notAfter="1914">1894/1914</date>
                <placeName ref="#pmb168">Berlin</placeName>
             </correspAction>
@@ -112,6 +112,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00032360"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

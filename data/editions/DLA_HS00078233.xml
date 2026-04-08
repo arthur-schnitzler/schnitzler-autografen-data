@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date"></title>
-            <title level="a">Schnitzler, Arthur an Bromasite &lt;New York&gt;</title>
+            <title level="a">Schnitzler, Arthur an Bromasite</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.00465</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00078233</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -101,6 +100,7 @@
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspAction type="received">
+               <orgName>Bromasite</orgName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_2121">Schnitzler, Arthur</ref>
@@ -111,6 +111,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00078233"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.02828,1-20</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00033364</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb11227">Eger, Paul</persName>
+               <orgName>Deutsches Schauspielhaus</orgName>
                <date notBefore="1910" notAfter="1919">1910/1919</date>
                <placeName ref="#pmb834">Darmstadt</placeName>
                <placeName ref="#pmb506">Hamburg</placeName>
@@ -115,6 +115,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00033364"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

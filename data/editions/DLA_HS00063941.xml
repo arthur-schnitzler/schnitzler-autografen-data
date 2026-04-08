@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1977-09-29">29.09.1977</title>
-            <title level="a">Bayerisches Hauptstaatsarchiv &lt;München&gt; an Heinz, Grete</title>
+            <title level="a">Bayerisches Hauptstaatsarchiv an Heinz, Grete</title>
 
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.05203</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00063941</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -98,6 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
+               <orgName>Bayerisches Hauptstaatsarchiv</orgName>
                <date when="1977-09-29">1977-09-29</date>
                <placeName ref="#pmb45258">München</placeName>
             </correspAction>
@@ -111,6 +111,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00063941"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

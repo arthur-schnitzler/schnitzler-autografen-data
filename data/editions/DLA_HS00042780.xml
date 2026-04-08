@@ -77,7 +77,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.04360,1-17</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00042780</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -101,6 +100,7 @@
             <correspAction type="sent">
                <persName ref="#pmb23675">Rotter, Alfred</persName>
                <persName ref="#pmb3876">Rotter, Fritz</persName>
+               <orgName ref="#pmb336086">Rotter-Bühnen</orgName>
                <date notBefore="1922" notAfter="1927">1922/1927</date>
                <placeName>Berlin-Grunewald</placeName>
             </correspAction>
@@ -116,6 +116,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00042780"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

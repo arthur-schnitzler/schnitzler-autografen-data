@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1929-08-02">02.08.1929</title>
-            <title level="a">C.-H.-Beck'sche Verlagsbuchhandlung &lt;München&gt; an Schnitzler, Arthur</title>
+            <title level="a">C.-H.-Beck'sche Verlagsbuchhandlung an Schnitzler, Arthur</title>
 
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.02678</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00032211</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -98,6 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
+               <orgName>C.-H.-Beck'sche Verlagsbuchhandlung</orgName>
                <date when="1929-08-02">1929-08-02</date>
                <placeName ref="#pmb45258">München</placeName>
             </correspAction>
@@ -111,6 +111,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00032211"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1919-01-05">05.01.1919</title>
-            <title level="a">Albert-Theater &lt;Dresden&gt; an Schnitzler, Arthur</title>
+            <title level="a">Albert-Theater an Schnitzler, Arthur</title>
             <author>Willi, Paul</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.02333</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00033196</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName>Willi, Paul</persName>
+               <orgName>Albert-Theater</orgName>
                <date when="1919-01-05">1919-01-05</date>
                <placeName ref="#pmb866">Dresden</placeName>
             </correspAction>
@@ -112,6 +112,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00033196"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

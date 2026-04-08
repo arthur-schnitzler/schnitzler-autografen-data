@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.04398,1-9</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00042935</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,8 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb301625">Samst, Max</persName>
+               <orgName>Chemnitzer Volksbühne</orgName>
+               <orgName>Wallner-Theater</orgName>
                <date notBefore="1921" notAfter="1931">1921/1931</date>
                <placeName ref="#pmb49582">Chemnitz</placeName>
                <placeName ref="#pmb168">Berlin</placeName>
@@ -115,6 +116,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00042935"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

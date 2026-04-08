@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1893" notAfter="1929">1893 - 1929</title>
-            <title level="a">Deutsches Volkstheater &lt;Wien&gt; an Schnitzler, Arthur</title>
+            <title level="a">Deutsches Volkstheater an Schnitzler, Arthur</title>
             <author ref="#pmb2161">Bukovics, Emerich von</author>
             <author ref="#pmb26880">Weisse, Adolf</author>
             <editor>
@@ -77,7 +77,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.02757,1-54</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00044300</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -101,6 +100,7 @@
             <correspAction type="sent">
                <persName ref="#pmb2161">Bukovics, Emerich von</persName>
                <persName ref="#pmb26880">Weisse, Adolf</persName>
+               <orgName>Deutsches Volkstheater</orgName>
                <date notBefore="1893" notAfter="1929">1893/1929</date>
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
@@ -116,6 +116,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00044300"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

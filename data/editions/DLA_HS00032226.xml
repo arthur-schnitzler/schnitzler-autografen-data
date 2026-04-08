@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1915-07-25">25.07.1915</title>
-            <title level="a">Behrend, Max an S.-Fischer-Verlag &lt;Berlin&gt;</title>
+            <title level="a">Behrend, Max an S.-Fischer-Verlag</title>
             <author ref="#pmb335828">Behrend, Max</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.04830,3</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00032226</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -103,6 +102,7 @@
                <placeName ref="#pmb146">Frankfurt am Main</placeName>
             </correspAction>
             <correspAction type="received">
+               <orgName>S.-Fischer-Verlag</orgName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_335828">Behrend, Max</ref>
@@ -113,6 +113,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00032226"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.NZ85.0001.05488,1-7</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00052714</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName>Williams, Robert Allan</persName>
+               <orgName>University/ Library</orgName>
                <date notBefore="1938" notAfter="1939">1938/1939</date>
                <placeName ref="#pmb893">Cambridge</placeName>
             </correspAction>
@@ -112,6 +112,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00052714"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1928-01-07">07.01.1928</title>
-            <title level="a">Löb, ... &lt;Dr.&gt; an Schnitzler, Arthur</title>
+            <title level="a">Löb, ... an Schnitzler, Arthur</title>
             <author>Löb, ... &lt;Dr.&gt;</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.03904</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00038967</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -111,6 +110,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00038967"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

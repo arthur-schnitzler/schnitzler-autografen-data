@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.02120,1-8</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00049674</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -102,6 +101,7 @@
                <date notBefore="1923" notAfter="1928">1923/1928</date>
             </correspAction>
             <correspAction type="received">
+               <orgName>Verband Deutscher Bühnenschriftsteller und Bühnenkomponisten</orgName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_2121">Schnitzler, Arthur</ref>
@@ -112,6 +112,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00049674"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

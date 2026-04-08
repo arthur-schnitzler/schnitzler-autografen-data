@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1931-07-02">02.07.1931</title>
-            <title level="a">Alexander, Norman an Benjamin Harz &lt;Berlin&gt;</title>
+            <title level="a">Alexander, Norman an Benjamin Harz</title>
             <author>Alexander, Norman</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.05194</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00051345</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -103,6 +102,7 @@
                <placeName ref="#pmb224">London</placeName>
             </correspAction>
             <correspAction type="received">
+               <orgName>Benjamin Harz</orgName>
             </correspAction>
 
          </correspDesc>
@@ -111,6 +111,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00051345"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1981-07-07">07.07.1981</title>
-            <title level="a">Amalthea-Verlag &lt;Zürich u.a.&gt; an Der Bayerische Rundfunk</title>
+            <title level="a">Amalthea-Verlag an Der Bayerische Rundfunk</title>
 
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.05195</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00063760</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -98,11 +97,13 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
+               <orgName ref="#pmb56572">Amalthea-Verlag</orgName>
                <date when="1981-07-07">1981-07-07</date>
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspAction type="received">
                <persName>Wütschner, Norbert</persName>
+               <orgName>Der Bayerische Rundfunk</orgName>
             </correspAction>
 
          </correspDesc>
@@ -111,6 +112,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00063760"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

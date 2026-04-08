@@ -77,7 +77,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.04307</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00041453</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -101,6 +100,7 @@
             <correspAction type="sent">
                <persName ref="#pmb12504">Reinhardt, Max</persName>
                <persName ref="#pmb3025">Kahane, Arthur</persName>
+               <orgName ref="#pmb35597">Deutsches Theater Berlin</orgName>
                <date notBefore="1902" notAfter="1918">1902/1918</date>
                <placeName ref="#pmb168">Berlin</placeName>
             </correspAction>
@@ -116,6 +116,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00041453"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

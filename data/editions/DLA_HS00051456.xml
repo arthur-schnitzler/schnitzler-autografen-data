@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1978" notAfter="1980">1978 - 1980</title>
-            <title level="a">Die Komödianten im Künstlerhaus &lt;Wien&gt; an Schnitzler, Heinrich</title>
+            <title level="a">Die Komödianten im Künstlerhaus an Schnitzler, Heinrich</title>
             <author>Meyer, Conny Hannes</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.05288,1-2</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00051456</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName>Meyer, Conny Hannes</persName>
+               <orgName>Die Komödianten im Künstlerhaus</orgName>
                <date notBefore="1978" notAfter="1980">1978/1980</date>
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
@@ -112,6 +112,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00051456"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

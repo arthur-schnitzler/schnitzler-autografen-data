@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1980-01-08">08.01.1980</title>
-            <title level="a">Ing. Anton Fritz &lt;Innsbruck&gt; an Schnitzler, Heinrich</title>
+            <title level="a">Ing. Anton Fritz an Schnitzler, Heinrich</title>
 
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.05278</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00051434</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -98,6 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
+               <orgName>Ing. Anton Fritz</orgName>
                <date when="1980-01-08">1980-01-08</date>
                <placeName ref="#pmb867">Innsbruck</placeName>
             </correspAction>
@@ -111,6 +111,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00051434"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

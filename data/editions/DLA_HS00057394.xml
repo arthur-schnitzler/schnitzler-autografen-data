@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1930-02-26">26.02.1930</title>
-            <title level="a">Curtis Brown LTD. an Theatre Guild &lt;New York&gt;</title>
+            <title level="a">Curtis Brown LTD. an Theatre Guild</title>
             <author>Rubsamen, C. Louis</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.2000.0085</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00057394</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,11 +98,13 @@
          <correspDesc>
             <correspAction type="sent">
                <persName>Rubsamen, C. Louis</persName>
+               <orgName>Curtis Brown LTD.</orgName>
                <date when="1930-02-26">1930-02-26</date>
                <placeName>New York, NY</placeName>
             </correspAction>
             <correspAction type="received">
                <persName>Munsell, Warren P.</persName>
+               <orgName>Theatre Guild</orgName>
             </correspAction>
 
          </correspDesc>
@@ -112,6 +113,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00057394"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

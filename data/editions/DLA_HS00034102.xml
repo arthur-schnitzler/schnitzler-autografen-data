@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1924" notAfter="1925">1924 - 1925</title>
-            <title level="a">Neues Theater &lt;Frankfurt, Main&gt; an Schnitzler, Arthur</title>
+            <title level="a">Neues Theater an Schnitzler, Arthur</title>
             <author ref="#pmb7777">Hellmer, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.04175,1-2</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00034102</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb7777">Hellmer, Arthur</persName>
+               <orgName ref="#pmb45434">Neues Theater</orgName>
                <date notBefore="1924" notAfter="1925">1924/1925</date>
                <placeName ref="#pmb146">Frankfurt am Main</placeName>
                <placeName>Berlin-Schöneberg</placeName>
@@ -115,6 +115,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00034102"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

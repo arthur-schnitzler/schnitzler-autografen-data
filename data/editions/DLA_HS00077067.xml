@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1987-11-03">03.11.1987</title>
-            <title level="a">Österreichische Akademie der Wissenschaften &lt;Wien&gt; an Volke, Werner</title>
+            <title level="a">Österreichische Akademie der Wissenschaften an Volke, Werner</title>
             <author ref="#pmb119261">Braunwarth, Peter Michael</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.05327</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00077067</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,11 +98,13 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb119261">Braunwarth, Peter Michael</persName>
+               <orgName ref="#pmb29395">Österreichische Akademie der Wissenschaften</orgName>
                <date when="1987-11-03">1987-11-03</date>
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspAction type="received">
                <persName>Volke, Werner</persName>
+               <orgName>Schiller-Nationalmuseum und Deutsches Literaturarchiv</orgName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_119261">Braunwarth, Peter Michael</ref>
@@ -114,6 +115,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00077067"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

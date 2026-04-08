@@ -76,7 +76,6 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.1985.0001.04449,1-4</idno>
-                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS00043113</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -99,6 +98,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb24148">Scheyer, Moriz</persName>
+               <orgName ref="#pmb29414">Neues Wiener Tagblatt</orgName>
                <date notBefore="1928" notAfter="1931">1928/1931</date>
                <placeName ref="#pmb50">Wien</placeName>
                <placeName ref="#pmb182">Paris</placeName>
@@ -115,6 +115,11 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="https://www.dla-marbach.de/find/opac/id/HS00043113"/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">
