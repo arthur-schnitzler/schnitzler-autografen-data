@@ -78,6 +78,7 @@
                         <settlement>Marbach am Neckar</settlement>
                         <repository>Deutsches Literaturarchiv</repository>
                         <idno>HS.2018.0095.00011</idno>
+                        <idno type="URL">https://www.dla-marbach.de/find/opac/id/HS01162239</idno>
                      </msIdentifier>
                      <physDesc>
                         <objectDesc>
@@ -119,11 +120,6 @@
          <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
-      <surface>
-         <graphic url="https://www.dla-marbach.de/find/opac/id/HS01162239"/>
-      </surface>
-   </facsimile>
    <text>
       <body>
          <div type="writingSession" n="1">

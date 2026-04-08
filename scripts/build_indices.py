@@ -30,8 +30,23 @@ def collect_referenced_ids(editions_dir):
 
     return person_ids, place_ids
 
+def sort_key_person(el):
+    """Sortiert Personen nach Nachname, Vorname (case-insensitive)."""
+    ns = NS["tei"]
+    pn = el.find(f"{{{ns}}}persName")
+    if pn is None:
+        return ("", "")
+    surname = (pn.findtext(f"{{{ns}}}surname") or "").strip().lower()
+    forename = (pn.findtext(f"{{{ns}}}forename") or "").strip().lower()
+    return (surname, forename)
 
-def filter_list(source_path, out_path, tag, id_prefix, keep_ids):
+def sort_key_place(el):
+    """Sortiert Orte nach placeName (case-insensitive)."""
+    ns = NS["tei"]
+    name = (el.findtext(f"{{{ns}}}placeName") or "").strip().lower()
+    return name
+
+def filter_list(source_path, out_path, tag, id_prefix, keep_ids, sort_key):
     """Filtert eine PMB-list*.xml auf die angegebenen IDs."""
     tree = ET.parse(source_path)
     root = tree.getroot()
@@ -42,18 +57,21 @@ def filter_list(source_path, out_path, tag, id_prefix, keep_ids):
         print(f"  ⚠ <{tag}> nicht gefunden in {source_path}")
         return 0
 
-    # Einträge filtern
-    child_tag = tag.replace("list", "").lower()  # listPerson → person
-    removed = 0
-    kept = 0
+        # Einträge filtern und xml:id umbenennen
+    xml_id_attr = "{http://www.w3.org/XML/1998/namespace}id"
+    kept_els = []
     for el in list(list_el):
-        xml_id = el.get("{http://www.w3.org/XML/1998/namespace}id", "")
+        xml_id = el.get(xml_id_attr, "")
         pmb_id = xml_id.replace(f"{id_prefix}__", "")
         if pmb_id in keep_ids:
-            kept += 1
-        else:
-            list_el.remove(el)
-            removed += 1
+            el.set(xml_id_attr, f"pmb{pmb_id}")
+            kept_els.append(el)
+        list_el.remove(el)
+
+    # Alphabetisch sortieren und wieder einfügen
+    kept_els.sort(key=sort_key)
+    for el in kept_els:
+        list_el.append(el)
 
     # Schreiben
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -64,7 +82,8 @@ def filter_list(source_path, out_path, tag, id_prefix, keep_ids):
     text = text.replace("?><", "?>\n<", 1)
     out_path.write_text(text, "utf-8")
 
-    return kept
+    return len(kept_els)
+
 
 
 def main():
@@ -79,14 +98,14 @@ def main():
     kept = filter_list(
         BASE / "pmb-export" / "listperson.xml",
         indices_dir / "listperson.xml",
-        "listPerson", "person", person_ids)
+       "listPerson", "person", person_ids, sort_key_person)
     print(f"  {kept} Personen übernommen")
 
     print("Filtere listplace.xml …")
     kept = filter_list(
         BASE / "pmb-export" / "listplace.xml",
         indices_dir / "listplace.xml",
-        "listPlace", "place", place_ids)
+        "listPlace", "place", place_ids, sort_key_place)
     print(f"  {kept} Orte übernommen")
 
     print(f"\nDateien geschrieben nach {indices_dir}")
