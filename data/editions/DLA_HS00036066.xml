@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1898" notAfter="1920">1898 - 1920</title>
-            <title level="a">Hanel, Hermine an Schnitzler, Arthur</title>
-            <author>Hanel, Hermine</author>
+            <title level="a">Hanel, Hermine an Schnitzler, Arthur, 1898–1920</title>
+            <author ref="#pmb17827">Hanel, Hermine</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,7 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Hanel, Hermine</persName>
+               <persName ref="#pmb17827">Hanel, Hermine</persName>
                <date notBefore="1898" notAfter="1920">1898/1920</date>
                <placeName ref="#pmb652">Prag</placeName>
                <placeName ref="#pmb45258">München</placeName>
@@ -106,11 +106,13 @@
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_17827">Hanel, Hermine</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

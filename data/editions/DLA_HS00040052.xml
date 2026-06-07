@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1904" notAfter="1909">1904 - 1909</title>
-            <title level="a">Lustig, ... an Schnitzler, Arthur</title>
-            <author>Lustig, ...</author>
+            <title level="a">Lustig, ... an Schnitzler, Arthur, 1904–1909</title>
+            <author ref="#pmb338151">Lustig, ...</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,7 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Lustig, ...</persName>
+               <persName ref="#pmb338151">Lustig, ...</persName>
                <date notBefore="1904" notAfter="1909">1904/1909</date>
                <placeName ref="#pmb189">Semmering</placeName>
                <placeName ref="#pmb901">Palermo</placeName>
@@ -105,11 +105,13 @@
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_338151">Lustig, ...</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

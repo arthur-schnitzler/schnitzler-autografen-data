@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1981-04-18">18.04.1981</title>
-            <title level="a">Niedieck, Gerda an Polak, Hans W.</title>
+            <title level="a">Niedieck, Gerda an Polak, Hans W., 18.4.1981</title>
             <author>Niedieck, Gerda</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

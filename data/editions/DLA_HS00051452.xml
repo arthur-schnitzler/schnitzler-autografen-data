@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1888-10-25">25.10.1888</title>
-            <title level="a">Hofmann, Gustav an Unbekannt</title>
+            <title level="a">Hofmann, Gustav an Unbekannt, 25.10.1888</title>
             <author>Hofmann, Gustav</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -102,13 +102,13 @@
                <placeName>Kladrau</placeName>
             </correspAction>
             <correspAction type="received">
-               <persName>Unbekannt &lt;Redakteur&gt;</persName>
+               <persName ref="#pmb338966">Unbekannt &lt;Redakteur&gt;</persName>
             </correspAction>
 
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

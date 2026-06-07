@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1924-03-01">01.03.1924</title>
-            <title level="a">Schnitzler, Arthur an Schlesinger, ...</title>
+            <title level="a">Schnitzler, Arthur an Schlesinger, ..., 1.3.1924</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -101,7 +101,7 @@
                <date when="1924-03-01">1924-03-01</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Schlesinger, ...</persName>
+               <persName ref="#pmb338670">Schlesinger, ...</persName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_2121">Schnitzler, Arthur</ref>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

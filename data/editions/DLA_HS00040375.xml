@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1903">1903</title>
-            <title level="a">Mewes, E. an Schnitzler, Arthur</title>
-            <author>Mewes, E.</author>
+            <title level="a">Mewes, E. an Schnitzler, Arthur, 1903</title>
+            <author ref="#pmb93852">Mewes, E.</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,7 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Mewes, E.</persName>
+               <persName ref="#pmb93852">Mewes, E.</persName>
                <date when="1903">1903</date>
                <placeName ref="#pmb885">Lugano</placeName>
                <placeName ref="#pmb50">Wien</placeName>
@@ -105,11 +105,13 @@
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_93852">Mewes, E.</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

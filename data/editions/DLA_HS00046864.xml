@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1915-03-10">10.03.1915</title>
-            <title level="a">Schnitzler, Arthur an Janusch, ...</title>
+            <title level="a">Schnitzler, Arthur an Janusch, ..., 10.3.1915</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -101,7 +101,7 @@
                <date when="1915-03-10">1915-03-10</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Janusch, ...</persName>
+               <persName ref="#pmb337845">Janusch, ...</persName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_2121">Schnitzler, Arthur</ref>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

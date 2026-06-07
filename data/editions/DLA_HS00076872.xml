@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1894-08">08.1894</title>
-            <title level="a">Schönthan, Paul von an Schnitzler, Arthur</title>
-            <author>Schönthan, Paul von</author>
+            <title level="a">Schönthan, Paul von an Schnitzler, Arthur, 8.1894</title>
+            <author ref="#pmb24705">Schönthan, Paul von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,17 +97,19 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Schönthan, Paul von</persName>
+               <persName ref="#pmb24705">Schönthan, Paul von</persName>
                <date when="1894-08">1894-08</date>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_24705">Schönthan, Paul von</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

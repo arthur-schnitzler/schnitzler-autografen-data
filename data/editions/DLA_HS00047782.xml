@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1915-05-31">31.05.1915</title>
-            <title level="a">Schnitzler, Arthur an Mayer, Ad.</title>
+            <title level="a">Schnitzler, Arthur an Mayer, Ad., 31.5.1915</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -101,7 +101,7 @@
                <date when="1915-05-31">1915-05-31</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Mayer, Ad.</persName>
+               <persName ref="#pmb99515">Mayer, Ad.</persName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_2121">Schnitzler, Arthur</ref>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

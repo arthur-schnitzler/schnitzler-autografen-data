@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1980-06-10">10.06.1980</title>
-            <title level="a">Weigel, Hans an Schnitzler, Heinrich</title>
+            <title level="a">Weigel, Hans an Schnitzler, Heinrich, 10.6.1980</title>
             <author ref="#pmb38464">Weigel, Hans</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

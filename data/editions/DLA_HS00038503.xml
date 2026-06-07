@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1901-06-21">21.06.1901</title>
-            <title level="a">Kunn, Carl an Schnitzler, Arthur</title>
+            <title level="a">Kunn, Carl an Schnitzler, Arthur, 21.6.1901</title>
             <author ref="#pmb19843">Kunn, Carl</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

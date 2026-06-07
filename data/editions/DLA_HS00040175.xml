@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1915-11-09">09.11.1915</title>
-            <title level="a">Mann, Lisel an Schnitzler, Arthur</title>
+            <title level="a">Mann, Lisel an Schnitzler, Arthur, 9.11.1915</title>
             <author ref="#pmb338193">Mann, Lisel</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

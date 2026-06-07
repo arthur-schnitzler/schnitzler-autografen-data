@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1917">1917</title>
-            <title level="a">Feiks, Lily an Schnitzler, Arthur</title>
-            <author>Feiks, Lily</author>
+            <title level="a">Feiks, Lily an Schnitzler, Arthur, 1917</title>
+            <author ref="#pmb16123">Feiks, Lily</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,7 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Feiks, Lily</persName>
+               <persName ref="#pmb16123">Feiks, Lily</persName>
                <date when="1917">1917</date>
                <placeName ref="#pmb45258">München</placeName>
                <placeName ref="#pmb2318">Partenkirchen</placeName>
@@ -105,11 +105,13 @@
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_16123">Feiks, Lily</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

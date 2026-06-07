@@ -7,7 +7,7 @@
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date"></title>
             <title level="a">Unbekannt an Schnitzler, Johann</title>
-            <author>Unbekannt</author>
+            <author ref="#pmb338967">Unbekannt</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,16 +97,18 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Unbekannt</persName>
+               <persName ref="#pmb338967">Unbekannt</persName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb12695">Schnitzler, Johann</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_338967">Unbekannt</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

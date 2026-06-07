@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1912-11-30">30.11.1912</title>
-            <title level="a">Frankfurter, Ella an Schnitzler, Arthur</title>
+            <title level="a">Frankfurter, Ella an Schnitzler, Arthur, 30.11.1912</title>
             <author ref="#pmb16479">Frankfurter, Ella</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

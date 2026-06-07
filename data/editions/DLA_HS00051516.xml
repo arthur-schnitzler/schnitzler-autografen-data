@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1975-09-15">15.09.1975</title>
-            <title level="a">S.-Fischer-Verlag an Landestheater</title>
+            <title level="a">S.-Fischer-Verlag an Landestheater, 15.9.1975</title>
             <author>Hunzinger, Stefani</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

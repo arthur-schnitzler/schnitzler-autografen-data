@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1905-01-12">12.01.1905</title>
-            <title level="a">Fumagalli, Mario von an Entsch, A.</title>
+            <title level="a">Fumagalli, Mario von an Entsch, A., 12.1.1905</title>
             <author>Fumagalli, Mario von</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -102,13 +102,13 @@
                <placeName>Milan</placeName>
             </correspAction>
             <correspAction type="received">
-               <persName>Entsch, A.</persName>
+               <persName ref="#pmb335861">Entsch, A.</persName>
             </correspAction>
 
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

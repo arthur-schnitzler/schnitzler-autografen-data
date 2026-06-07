@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1920-08-02">02.08.1920</title>
-            <title level="a">Ben-Gavriêl, M. Y. an Schnitzler, Arthur</title>
-            <author>Ben-Gavriêl, M. Y.</author>
+            <title level="a">Ben-Gavriêl, M. Y. an Schnitzler, Arthur, 2.8.1920</title>
+            <author ref="#pmb336899">Ben-Gavriêl, M. Y.</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Ben-Gavriêl, M. Y.</persName>
+               <persName ref="#pmb336899">Ben-Gavriêl, M. Y.</persName>
                <date when="1920-08-02">1920-08-02</date>
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_336899">Ben-Gavriêl, M. Y.</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

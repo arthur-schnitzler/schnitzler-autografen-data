@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1908" notAfter="1922">1908 - 1922</title>
-            <title level="a">Seybel, Georg an Schnitzler, Arthur</title>
-            <author>Seybel, Georg</author>
+            <title level="a">Seybel, Georg an Schnitzler, Arthur, 1908–1922</title>
+            <author ref="#pmb3058">Seybel, Georg</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,7 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Seybel, Georg</persName>
+               <persName ref="#pmb3058">Seybel, Georg</persName>
                <date notBefore="1908" notAfter="1922">1908/1922</date>
                <placeName ref="#pmb484">Zürich</placeName>
                <placeName>New York, NY</placeName>
@@ -106,11 +106,13 @@
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_3058">Seybel, Georg</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

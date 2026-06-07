@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1930-04-02">02.04.1930</title>
-            <title level="a">König, Alma Johanna an Schnitzler, Arthur</title>
-            <author>König, Alma Johanna</author>
+            <title level="a">König, Alma Johanna an Schnitzler, Arthur, 2.4.1930</title>
+            <author ref="#pmb336982">König, Alma Johanna</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>König, Alma Johanna</persName>
+               <persName ref="#pmb336982">König, Alma Johanna</persName>
                <date when="1930-04-02">1930-04-02</date>
                <placeName ref="#pmb43991">Algier</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_336982">König, Alma Johanna</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

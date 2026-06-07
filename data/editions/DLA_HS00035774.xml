@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1927-04-20">20.04.1927</title>
-            <title level="a">Gundolf, Elisabeth an Schnitzler, Arthur</title>
+            <title level="a">Gundolf, Elisabeth an Schnitzler, Arthur, 20.4.1927</title>
             <author ref="#pmb336947">Gundolf, Elisabeth</author>
             <author ref="#pmb3824">Gundolf, Friedrich</author>
             <author ref="#pmb338116">Lips, Paul</author>
@@ -114,7 +114,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

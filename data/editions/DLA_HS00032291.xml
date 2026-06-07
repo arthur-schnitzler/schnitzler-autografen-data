@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1923" notAfter="1924">1923 - 1924</title>
-            <title level="a">Deutsches Theater Berlin an Schnitzler, Arthur</title>
+            <title level="a">Deutsches Theater Berlin an Schnitzler, Arthur, 1923–1924</title>
 
             <editor>
                <name>Müller, Martin Anton</name>
@@ -108,7 +108,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1915-11-17">17.11.1915</title>
-            <title level="a">I..., Marie an Gussmann, Elisabeth</title>
+            <title level="a">I..., Marie an Gussmann, Elisabeth, 17.11.1915</title>
             <author>I..., Marie</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -102,13 +102,13 @@
                <placeName ref="#pmb45258">München</placeName>
             </correspAction>
             <correspAction type="received">
-               <persName>Gussmann, Elisabeth</persName>
+               <persName ref="#pmb2315">Gussmann, Elisabeth</persName>
             </correspAction>
 
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

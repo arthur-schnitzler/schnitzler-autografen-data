@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1899" notAfter="1906">1899 - 1906</title>
-            <title level="a">Coschell, Moritz C. an Schnitzler, Arthur</title>
-            <author>Coschell, Moritz C.</author>
+            <title level="a">Coschell, Moritz C. an Schnitzler, Arthur, 1899–1906</title>
+            <author ref="#pmb336918">Coschell, Moritz C.</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,7 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Coschell, Moritz C.</persName>
+               <persName ref="#pmb336918">Coschell, Moritz C.</persName>
                <date notBefore="1899" notAfter="1906">1899/1906</date>
                <placeName ref="#pmb168">Berlin</placeName>
                <placeName ref="#pmb64659">Heringsdorf</placeName>
@@ -106,11 +106,13 @@
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_336918">Coschell, Moritz C.</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

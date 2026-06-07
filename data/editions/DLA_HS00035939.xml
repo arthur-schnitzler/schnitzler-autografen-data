@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1889-07-16">16.07.1889</title>
-            <title level="a">Hagedorn, ... an Schnitzler, Arthur</title>
-            <author>Hagedorn, ...</author>
+            <title level="a">Hagedorn, ... an Schnitzler, Arthur, 16.7.1889</title>
+            <author ref="#pmb52656">Hagedorn, ...</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Hagedorn, ...</persName>
+               <persName ref="#pmb52656">Hagedorn, ...</persName>
                <date when="1889-07-16">1889-07-16</date>
                <placeName ref="#pmb506">Hamburg</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_52656">Hagedorn, ...</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

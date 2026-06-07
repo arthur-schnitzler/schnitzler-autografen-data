@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1911-05-05">05.05.1911</title>
-            <title level="a">Falk, I. an Schnitzler, Arthur</title>
-            <author>Falk, I.</author>
+            <title level="a">Falk, I. an Schnitzler, Arthur, 5.5.1911</title>
+            <author ref="#pmb16083">Falk, I.</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Falk, I.</persName>
+               <persName ref="#pmb16083">Falk, I.</persName>
                <date when="1911-05-05">1911-05-05</date>
                <placeName>Fiume</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_16083">Falk, I.</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

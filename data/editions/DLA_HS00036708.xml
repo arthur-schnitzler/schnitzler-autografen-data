@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1903-03-19">19.03.1903</title>
-            <title level="a">Hörmann, Julius an Schnitzler, Arthur</title>
+            <title level="a">Hörmann, Julius an Schnitzler, Arthur, 19.3.1903</title>
             <author ref="#pmb337828">Hörmann, Julius</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

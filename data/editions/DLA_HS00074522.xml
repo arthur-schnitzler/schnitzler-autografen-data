@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1885-12-25">25.12.1885</title>
-            <title level="a">Bauer, Julius an Schnitzler, Louise</title>
+            <title level="a">Bauer, Julius an Schnitzler, Louise, 25.12.1885</title>
             <author ref="#pmb2150">Bauer, Julius</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

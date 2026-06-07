@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1928-05-20">20.05.1928</title>
-            <title level="a">Schnitzler, Arthur an Krauß, Werner</title>
+            <title level="a">Schnitzler, Arthur an Krauß, Werner, 20.5.1928</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -101,7 +101,7 @@
                <date when="1928-05-20">1928-05-20</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="#pmb121701">Krauß, Werner</persName>
+               <persName ref="#pmb8336">Krauß, Werner</persName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_2121">Schnitzler, Arthur</ref>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

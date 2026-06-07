@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1931-08-08">08.08.1931</title>
-            <title level="a">Jowemmer, ... an Schnitzler, Arthur</title>
-            <author>Jowemmer, ...</author>
+            <title level="a">Jowemmer, ... an Schnitzler, Arthur, 8.8.1931</title>
+            <author ref="#pmb337865">Jowemmer, ...</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Jowemmer, ...</persName>
+               <persName ref="#pmb337865">Jowemmer, ...</persName>
                <date when="1931-08-08">1931-08-08</date>
                <placeName ref="#pmb189">Semmering</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_337865">Jowemmer, ...</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

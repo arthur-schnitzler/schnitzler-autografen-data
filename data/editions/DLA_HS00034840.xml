@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1894-06-12" notAfter="1894-09-27">12.06.1894 - 27.09.1894</title>
-            <title level="a">Glümer, Marie an Schnitzler, Arthur</title>
+            <title level="a">Glümer, Marie an Schnitzler, Arthur, 12.6.1894–27.9.1894</title>
             <author ref="#pmb14953">Glümer, Marie</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

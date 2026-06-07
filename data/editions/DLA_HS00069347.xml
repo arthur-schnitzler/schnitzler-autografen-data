@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1901" notAfter="1909">1901 - 1909</title>
-            <title level="a">Schnitzler, Julius an Schnitzler, Arthur</title>
+            <title level="a">Schnitzler, Julius an Schnitzler, Arthur, 1901–1909</title>
             <author ref="#pmb12698">Schnitzler, Julius</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -112,7 +112,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

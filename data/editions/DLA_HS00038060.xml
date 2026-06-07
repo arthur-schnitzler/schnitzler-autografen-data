@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1930-01-25">25.01.1930</title>
-            <title level="a">Kortner, Fritz an Schnitzler, Arthur</title>
+            <title level="a">Kortner, Fritz an Schnitzler, Arthur, 25.1.1930</title>
             <author ref="#pmb11975">Kortner, Fritz</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

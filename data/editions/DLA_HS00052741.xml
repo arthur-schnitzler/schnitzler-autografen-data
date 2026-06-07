@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1955-02-07">07.02.1955</title>
-            <title level="a">MacGregor, Robert M. an Kirschner, Richard L.</title>
+            <title level="a">MacGregor, Robert M. an Kirschner, Richard L., 7.2.1955</title>
             <author>MacGregor, Robert M.</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -108,7 +108,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1891" notAfter="1911">1891 - 1911</title>
-            <title level="a">Burckhard, Max an Schnitzler, Arthur</title>
-            <author>Burckhard, Max</author>
+            <title level="a">Burckhard, Max an Schnitzler, Arthur, 1891–1911</title>
+            <author ref="#pmb11036">Burckhard, Max</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Burckhard, Max</persName>
+               <persName ref="#pmb11036">Burckhard, Max</persName>
                <date notBefore="1891" notAfter="1911">1891/1911</date>
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

@@ -40,10 +40,11 @@ JSON_FILES = [
 # ───────────────────────────────────────────────────
 
 def build_person_lookup(path):
-    """PMB listperson.xml → dict mit verschiedenen Schlüsseln → pmb_id."""
+    """PMB listperson.xml → (by_display, by_name, by_dla_id)."""
     tree = ET.parse(path)
     by_display = {}
     by_name = {}
+    by_dla_id = {}
 
     for p in tree.findall(".//tei:person", NS):
         xml_id = p.get("{http://www.w3.org/XML/1998/namespace}id", "")
@@ -73,7 +74,15 @@ def build_person_lookup(path):
         if simple not in by_name:
             by_name[simple] = pmb_id
 
-    return by_display, by_name
+        for idno in p.findall("tei:idno", NS):
+            if idno.get("subtype") == "dla-marbach":
+                url = (idno.text or "").strip()
+                if "/id/" in url:
+                    dla_id = url.split("/id/")[-1].strip("/")
+                    if dla_id:
+                        by_dla_id[dla_id] = pmb_id
+
+    return by_display, by_name, by_dla_id
 
 
 def build_place_lookup(path):
@@ -89,8 +98,10 @@ def build_place_lookup(path):
     return places
 
 
-def resolve_person(display_name, by_display, by_name):
-    """Versucht eine PMB-ID für einen DLA-Anzeigenamen zu finden."""
+def resolve_person(display_name, by_display, by_name, by_dla_id=None, dla_id=None):
+    """Versucht eine PMB-ID für einen DLA-Anzeigenamen / DLA-ID zu finden."""
+    if dla_id and by_dla_id and dla_id in by_dla_id:
+        return by_dla_id[dla_id]
     if display_name in by_display:
         return by_display[display_name]
     clean = re.sub(r"\s*\(.*?\)\s*", "", display_name).strip()
@@ -100,21 +111,30 @@ def resolve_person(display_name, by_display, by_name):
 
 
 def build_org_lookup(path):
-    """PMB listorg.xml → Orgname → pmb_id."""
+    """PMB listorg.xml → (by_name, by_dla_id)."""
     tree = ET.parse(path)
-    by_display = {}
     by_name = {}
+    by_dla_id = {}
     for o in tree.findall(".//tei:org", NS):
         xml_id = o.get("{http://www.w3.org/XML/1998/namespace}id", "")
         pmb_id = xml_id.replace("org__", "")
         name = (o.findtext("tei:orgName", "", NS) or "").strip()
-        if name:
+        if name and name not in by_name:
             by_name[name] = pmb_id
-    return by_name
+        for idno in o.findall("tei:idno", NS):
+            if idno.get("subtype") == "dla-marbach":
+                url = (idno.text or "").strip()
+                if "/id/" in url:
+                    dla_id = url.split("/id/")[-1].strip("/")
+                    if dla_id:
+                        by_dla_id[dla_id] = pmb_id
+    return by_name, by_dla_id
 
 
-def resolve_org(display_name, org_lookup):
+def resolve_org(display_name, org_lookup, org_by_dla_id=None, dla_id=None):
     """Versucht eine PMB-ID für eine Organisation zu finden."""
+    if dla_id and org_by_dla_id and dla_id in org_by_dla_id:
+        return org_by_dla_id[dla_id]
     if display_name in org_lookup:
         return org_lookup[display_name]
     clean = re.sub(r"\s*\(.*?\)\s*$", "", display_name).strip()
@@ -227,16 +247,20 @@ def build_ms_identifier(entry):
 # correspDesc für Briefe
 # ───────────────────────────────────────────────────
 
-def build_corresp_action(action_type, persons, orgs, places, by_display, by_name, org_lookup,
+def build_corresp_action(action_type, persons, person_ids, orgs, org_ids, places,
+                         by_display, by_name, person_by_dla_id,
+                         org_lookup, org_by_dla_id,
                          place_lookup, date_start=None, date_end=None):
     lines = [f'            <correspAction type="{action_type}">']
 
-    for p in persons:
-        pmb_id = resolve_person(p, by_display, by_name)
+    for i, p in enumerate(persons):
+        dla_id = person_ids[i] if i < len(person_ids) else None
+        pmb_id = resolve_person(p, by_display, by_name, person_by_dla_id, dla_id)
         lines.append(f"               {make_person_ref(p, pmb_id)}")
 
-    for o in orgs:
-        pmb_id = resolve_org(o, org_lookup)
+    for i, o in enumerate(orgs):
+        dla_id = org_ids[i] if i < len(org_ids) else None
+        pmb_id = resolve_org(o, org_lookup, org_by_dla_id, dla_id)
         lines.append(f"               {make_org_ref(o, pmb_id)}")
 
     if date_start and date_end and date_start != date_end:
@@ -255,27 +279,35 @@ def build_corresp_action(action_type, persons, orgs, places, by_display, by_name
     return "\n".join(lines)
 
 
-def build_corresp_desc(entry, by_display, by_name, org_lookup, place_lookup):
+def build_corresp_desc(entry, by_display, by_name, person_by_dla_id,
+                       org_lookup, org_by_dla_id, place_lookup):
     """Baut das gesamte correspDesc-Element für einen Brief."""
     date_start, date_end = parse_dates(entry)
     senders = entry.get("personBy_display_mv", [])
+    sender_ids = entry.get("personBy_id_mv", [])
     receivers = entry.get("personTo_display_mv", [])
+    receiver_ids = entry.get("personTo_id_mv", [])
     sender_orgs = entry.get("corporationBy_display_mv", [])
+    sender_org_ids = entry.get("corporationBy_id_mv", [])
     receiver_orgs = entry.get("corporationTo_display_mv", [])
+    receiver_org_ids = entry.get("corporationTo_id_mv", [])
     places = entry.get("place_mv", [])
 
     corresp_sent = build_corresp_action(
-        "sent", senders, sender_orgs, places, by_display, by_name,
-        org_lookup, place_lookup, date_start, date_end)
+        "sent", senders, sender_ids, sender_orgs, sender_org_ids, places,
+        by_display, by_name, person_by_dla_id,
+        org_lookup, org_by_dla_id, place_lookup, date_start, date_end)
 
     corresp_received = build_corresp_action(
-        "received", receivers, receiver_orgs, [], by_display, by_name,
-        org_lookup, place_lookup)
+        "received", receivers, receiver_ids, receiver_orgs, receiver_org_ids, [],
+        by_display, by_name, person_by_dla_id,
+        org_lookup, org_by_dla_id, place_lookup)
 
     # correspContext: belongsToCorrespondence (Absender-PMB-ID)
     corresp_context = ""
-    for p in senders:
-        pmb_id = resolve_person(p, by_display, by_name)
+    for i, p in enumerate(senders):
+        dla_id = sender_ids[i] if i < len(sender_ids) else None
+        pmb_id = resolve_person(p, by_display, by_name, person_by_dla_id, dla_id)
         if pmb_id:
             surname, forename = extract_name_parts(p)
             full = f"{surname}, {forename}" if forename else surname
@@ -324,7 +356,8 @@ def objecttype_corresp(entry):
 # TEI-Erzeugung
 # ───────────────────────────────────────────────────
 
-def build_tei(entry, by_display, by_name, org_lookup, place_lookup):
+def build_tei(entry, by_display, by_name, person_by_dla_id,
+              org_lookup, org_by_dla_id, place_lookup):
     eid = entry["id"]
     title_text = xml_escape(entry.get("title", eid))
     date_start, date_end = parse_dates(entry)
@@ -334,12 +367,27 @@ def build_tei(entry, by_display, by_name, org_lookup, place_lookup):
     etype = entry_type(entry)
 
     senders = entry.get("personBy_display_mv", [])
+    sender_ids = entry.get("personBy_id_mv", [])
 
     # title level="s"
     title_s = "Arthur Schnitzler: Autografen"
 
     # title level="a" – spitze Klammern entfernen
     raw_title = re.sub(r"\s*<[^>]*>", "", entry.get("title", ""))
+    # Bei Briefen Datum bzw. Zeitspanne an den Titel anhängen
+    if etype == "brief":
+        date_for_title = ""
+        if date_display:
+            # " - " → "–" (Gedankenstrich ohne Leerzeichen)
+            date_for_title = re.sub(r"\s*-\s*", "–", date_display)
+        elif date_start and date_end and date_start != date_end:
+            date_for_title = f"{date_start}–{date_end}"
+        elif date_start:
+            date_for_title = date_start
+        if date_for_title:
+            # Führende Nullen in Tag/Monat entfernen (04.12.1915 → 4.12.1915)
+            date_for_title = re.sub(r"\b0(\d)", r"\1", date_for_title)
+            raw_title = f"{raw_title}, {date_for_title}"
     title_a = xml_escape(raw_title)
 
     # ISO-Datums-Attribut
@@ -351,16 +399,18 @@ def build_tei(entry, by_display, by_name, org_lookup, place_lookup):
     # author-Elemente
     author_lines = []
     if etype == "brief":
-        for s in senders:
-            pmb_id = resolve_person(s, by_display, by_name)
+        for i, s in enumerate(senders):
+            dla_id = sender_ids[i] if i < len(sender_ids) else None
+            pmb_id = resolve_person(s, by_display, by_name, person_by_dla_id, dla_id)
             surname, forename = extract_name_parts(s)
             full = f"{surname}, {forename}" if forename else surname
             ref = f' ref="#pmb{pmb_id}"' if pmb_id else ""
             author_lines.append(f'            <author{ref}>{xml_escape(full)}</author>')
     else:
         # Manuskripte/Dokumente: Schnitzler ist immer Autor
-        for s in senders:
-            pmb_id = resolve_person(s, by_display, by_name)
+        for i, s in enumerate(senders):
+            dla_id = sender_ids[i] if i < len(sender_ids) else None
+            pmb_id = resolve_person(s, by_display, by_name, person_by_dla_id, dla_id)
             surname, forename = extract_name_parts(s)
             full = f"{surname}, {forename}" if forename else surname
             ref = f' ref="#pmb{pmb_id}"' if pmb_id else ""
@@ -382,7 +432,7 @@ def build_tei(entry, by_display, by_name, org_lookup, place_lookup):
             f"         <langUsage>\n"
             f'            <language ident="de-AT">German</language>\n'
             f"         </langUsage>\n"
-            f"{build_corresp_desc(entry, by_display, by_name, org_lookup, place_lookup)}")
+            f"{build_corresp_desc(entry, by_display, by_name, person_by_dla_id, org_lookup, org_by_dla_id, place_lookup)}")
     else:
         profile_content = (
             f"         <langUsage>\n"
@@ -526,12 +576,12 @@ def build_tei(entry, by_display, by_name, org_lookup, place_lookup):
 
 def main():
     print("Lade PMB-Personendaten …")
-    by_display, by_name = build_person_lookup(BASE / "pmb-export" / "listperson.xml")
-    print(f"  {len(by_display)} Anzeigenamen, {len(by_name)} einfache Namen")
+    by_display, by_name, person_by_dla_id = build_person_lookup(BASE / "pmb-export" / "listperson.xml")
+    print(f"  {len(by_display)} Anzeigenamen, {len(by_name)} einfache Namen, {len(person_by_dla_id)} DLA-IDs")
 
     print("Lade PMB-Organisationsdaten …")
-    org_lookup = build_org_lookup(BASE / "pmb-export" / "listorg.xml")
-    print(f"  {len(org_lookup)} Organisationen")
+    org_lookup, org_by_dla_id = build_org_lookup(BASE / "pmb-export" / "listorg.xml")
+    print(f"  {len(org_lookup)} Organisationen, {len(org_by_dla_id)} DLA-IDs")
 
     print("Lade PMB-Ortsdaten …")
     place_lookup = build_place_lookup(BASE / "pmb-export" / "listplace.xml")
@@ -569,24 +619,37 @@ def main():
             etype = entry_type(entry)
             type_counts[etype] += 1
 
-            tei_xml = build_tei(entry, by_display, by_name, org_lookup, place_lookup)
+            tei_xml = build_tei(entry, by_display, by_name, person_by_dla_id,
+                                org_lookup, org_by_dla_id, place_lookup)
             standort = entry.get("standort", "").upper()
             out_path = out_dir / f"{standort}_{eid}.xml"
             out_path.write_text(tei_xml, encoding="utf-8")
             total_written += 1
 
             # Statistik
-            for field in ("personBy_display_mv", "personTo_display_mv"):
-                for p in entry.get(field, []):
-                    if resolve_person(p, by_display, by_name):
+            for disp_field, id_field in (
+                ("personBy_display_mv", "personBy_id_mv"),
+                ("personTo_display_mv", "personTo_id_mv"),
+            ):
+                disps = entry.get(disp_field, [])
+                ids = entry.get(id_field, [])
+                for i, p in enumerate(disps):
+                    dla_id = ids[i] if i < len(ids) else None
+                    if resolve_person(p, by_display, by_name, person_by_dla_id, dla_id):
                         total_persons_ok += 1
                     else:
                         total_persons_fail += 1
                         all_unresolved_persons.add(p)
 
-            for field in ("corporationBy_display_mv", "corporationTo_display_mv"):
-                for o in entry.get(field, []):
-                    if resolve_org(o, org_lookup):
+            for disp_field, id_field in (
+                ("corporationBy_display_mv", "corporationBy_id_mv"),
+                ("corporationTo_display_mv", "corporationTo_id_mv"),
+            ):
+                disps = entry.get(disp_field, [])
+                ids = entry.get(id_field, [])
+                for i, o in enumerate(disps):
+                    dla_id = ids[i] if i < len(ids) else None
+                    if resolve_org(o, org_lookup, org_by_dla_id, dla_id):
                         total_orgs_ok += 1
                     else:
                         total_orgs_fail += 1

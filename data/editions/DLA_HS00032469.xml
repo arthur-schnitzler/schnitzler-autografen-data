@@ -6,10 +6,10 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1908-10-10">10.10.1908</title>
-            <title level="a">Bodmer, Hans an Schnitzler, Arthur</title>
+            <title level="a">Bodmer, Hans an Schnitzler, Arthur, 10.10.1908</title>
             <author ref="#pmb10977">Bodmer, Hans</author>
             <author ref="#pmb5490">Bodman, Emanuel von</author>
-            <author>Verschiedene</author>
+            <author ref="#pmb338984">Verschiedene</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -101,7 +101,7 @@
             <correspAction type="sent">
                <persName ref="#pmb10977">Bodmer, Hans</persName>
                <persName ref="#pmb5490">Bodman, Emanuel von</persName>
-               <persName>Verschiedene</persName>
+               <persName ref="#pmb338984">Verschiedene</persName>
                <date when="1908-10-10">1908-10-10</date>
                <placeName ref="#pmb484">Zürich</placeName>
             </correspAction>
@@ -114,7 +114,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

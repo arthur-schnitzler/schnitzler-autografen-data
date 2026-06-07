@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1881-07-15">15.07.1881</title>
-            <title level="a">Hajek, Gisela an Schnitzler, Arthur</title>
+            <title level="a">Hajek, Gisela an Schnitzler, Arthur, 15.7.1881</title>
             <author ref="#pmb2461">Hajek, Gisela</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

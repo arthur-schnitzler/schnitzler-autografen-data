@@ -7,7 +7,7 @@
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date"></title>
             <title level="a">Basedow, Hans von an Schnitzler, Arthur</title>
-            <author ref="#pmb159247">Basedow, Hans von</author>
+            <author ref="#pmb299892">Basedow, Hans von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,7 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="#pmb159247">Basedow, Hans von</persName>
+               <persName ref="#pmb299892">Basedow, Hans von</persName>
                <placeName ref="#pmb168">Berlin</placeName>
                <placeName ref="#pmb864">Leipzig</placeName>
             </correspAction>
@@ -105,12 +105,12 @@
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ref type="belongsToCorrespondence" target="correspondence_159247">Basedow, Hans von</ref>
+               <ref type="belongsToCorrespondence" target="correspondence_299892">Basedow, Hans von</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

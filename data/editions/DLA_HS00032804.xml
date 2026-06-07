@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1888-05-06">06.05.1888</title>
-            <title level="a">Cohn, Hermann an Schnitzler, Arthur</title>
+            <title level="a">Cohn, Hermann an Schnitzler, Arthur, 6.5.1888</title>
             <author ref="#pmb15043">Cohn, Hermann</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1893-04">04.1893</title>
-            <title level="a">Ehrhardt, ... an Schnitzler, Arthur</title>
-            <author>Ehrhardt, ...</author>
+            <title level="a">Ehrhardt, ... an Schnitzler, Arthur, 4.1893</title>
+            <author ref="#pmb337413">Ehrhardt, ...</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,17 +97,19 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Ehrhardt, ...</persName>
+               <persName ref="#pmb337413">Ehrhardt, ...</persName>
                <date when="1893-04">1893-04</date>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_337413">Ehrhardt, ...</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

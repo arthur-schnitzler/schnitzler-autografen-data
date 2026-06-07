@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1896-10-21">21.10.1896</title>
-            <title level="a">Sternberg, D. M. an Schnitzler, Arthur</title>
+            <title level="a">Sternberg, D. M. an Schnitzler, Arthur, 21.10.1896</title>
             <author ref="#pmb338859">Sternberg, D. M.</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

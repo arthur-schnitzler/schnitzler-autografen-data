@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1904-04-13">13.04.1904</title>
-            <title level="a">Klein, Bertha an Schnitzler, Arthur</title>
+            <title level="a">Klein, Bertha an Schnitzler, Arthur, 13.4.1904</title>
             <author ref="#pmb144060">Klein, Bertha</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

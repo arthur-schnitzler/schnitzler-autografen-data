@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1907" notAfter="1909">1907 - 1909</title>
-            <title level="a">Robert, Eugen an Schnitzler, Arthur</title>
+            <title level="a">Robert, Eugen an Schnitzler, Arthur, 1907–1909</title>
             <author ref="#pmb12537">Robert, Eugen</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -111,7 +111,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

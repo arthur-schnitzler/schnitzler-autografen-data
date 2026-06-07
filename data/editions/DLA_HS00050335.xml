@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1895-07-08" notAfter="1896-08-25">08.07.1895 - 25.08.1896</title>
-            <title level="a">Schnitzler, Arthur an Reinhard, Marie</title>
+            <title level="a">Schnitzler, Arthur an Reinhard, Marie, 8.7.1895–25.8.1896</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -112,7 +112,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1890" notAfter="1906">1890 - 1906</title>
-            <title level="a">Conrad, Michael Georg an Schnitzler, Arthur</title>
+            <title level="a">Conrad, Michael Georg an Schnitzler, Arthur, 1890–1906</title>
             <author ref="#pmb11098">Conrad, Michael Georg</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

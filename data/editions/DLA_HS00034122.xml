@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1906" notAfter="1931">1906 - 1931</title>
-            <title level="a">Freud, Sigmund an Schnitzler, Arthur</title>
+            <title level="a">Freud, Sigmund an Schnitzler, Arthur, 1906–1931</title>
             <author ref="#pmb11370">Freud, Sigmund</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

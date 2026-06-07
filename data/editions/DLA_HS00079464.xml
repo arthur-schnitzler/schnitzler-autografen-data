@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1924-10-18">18.10.1924</title>
-            <title level="a">Schnitzler, Arthur an Morris, ...</title>
+            <title level="a">Schnitzler, Arthur an Morris, ..., 18.10.1924</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -102,7 +102,7 @@
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspAction type="received">
-               <persName>Morris, ...</persName>
+               <persName ref="#pmb338273">Morris, ...</persName>
                <orgName>Königliches Theater</orgName>
             </correspAction>
             <correspContext>
@@ -111,7 +111,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

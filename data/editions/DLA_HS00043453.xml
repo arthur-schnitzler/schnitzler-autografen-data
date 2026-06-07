@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1930" notAfter="1931">1930 - 1931</title>
-            <title level="a">Spiegel der Welt an Schnitzler, Arthur</title>
+            <title level="a">Spiegel der Welt an Schnitzler, Arthur, 1930–1931</title>
 
             <editor>
                <name>Müller, Martin Anton</name>
@@ -108,7 +108,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

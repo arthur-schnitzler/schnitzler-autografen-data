@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1962">1962</title>
-            <title level="a">Wiener Festwochen an Cysarz, Herbert</title>
+            <title level="a">Wiener Festwochen an Cysarz, Herbert, 1962</title>
 
             <editor>
                <name>Müller, Martin Anton</name>
@@ -103,13 +103,13 @@
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb6742">Cysarz, Herbert</persName>
-               <persName>Verschiedene</persName>
+               <persName ref="#pmb338984">Verschiedene</persName>
             </correspAction>
 
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

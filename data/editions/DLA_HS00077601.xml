@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1922-05-26">26.05.1922</title>
-            <title level="a">Schnitzler, Arthur an Bach, D.</title>
+            <title level="a">Schnitzler, Arthur an Bach, D., 26.5.1922</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -101,7 +101,7 @@
                <date when="1922-05-26">1922-05-26</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Bach, D.</persName>
+               <persName ref="#pmb10803">Bach, D.</persName>
                <orgName ref="#pmb29644">Arbeiter-Zeitung</orgName>
             </correspAction>
             <correspContext>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1902" notAfter="1912">1902 - 1912</title>
-            <title level="a">Möller, Alfred an Schnitzler, Arthur</title>
-            <author>Möller, Alfred</author>
+            <title level="a">Möller, Alfred an Schnitzler, Arthur, 1902–1912</title>
+            <author ref="#pmb113302">Möller, Alfred</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Möller, Alfred</persName>
+               <persName ref="#pmb113302">Möller, Alfred</persName>
                <date notBefore="1902" notAfter="1912">1902/1912</date>
                <placeName ref="#pmb860">Graz</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_113302">Möller, Alfred</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

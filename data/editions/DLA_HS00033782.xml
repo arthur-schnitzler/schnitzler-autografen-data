@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1895" notAfter="1896">1895 - 1896</title>
-            <title level="a">Ernst, Karla an Schnitzler, Arthur</title>
+            <title level="a">Ernst, Karla an Schnitzler, Arthur, 1895–1896</title>
             <author ref="#pmb337446">Ernst, Karla</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

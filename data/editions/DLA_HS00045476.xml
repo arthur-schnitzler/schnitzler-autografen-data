@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1917-02-19">19.02.1917</title>
-            <title level="a">Schnitzler, Arthur an Gelles, ...</title>
+            <title level="a">Schnitzler, Arthur an Gelles, ..., 19.2.1917</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -101,7 +101,7 @@
                <date when="1917-02-19">1917-02-19</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Gelles, ...</persName>
+               <persName ref="#pmb337567">Gelles, ...</persName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_2121">Schnitzler, Arthur</ref>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

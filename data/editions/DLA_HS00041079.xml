@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1916-01-09">09.01.1916</title>
-            <title level="a">Rabitsch, ... an Schnitzler, Arthur</title>
-            <author>Rabitsch, ...</author>
+            <title level="a">Rabitsch, ... an Schnitzler, Arthur, 9.1.1916</title>
+            <author ref="#pmb22985">Rabitsch, ...</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Rabitsch, ...</persName>
+               <persName ref="#pmb22985">Rabitsch, ...</persName>
                <date when="1916-01-09">1916-01-09</date>
                <placeName ref="#pmb506">Hamburg</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_22985">Rabitsch, ...</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

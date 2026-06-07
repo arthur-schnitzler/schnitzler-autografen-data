@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1929-06-13">13.06.1929</title>
-            <title level="a">Schnitzler, Arthur an Keuls, H. W. J. M.</title>
+            <title level="a">Schnitzler, Arthur an Keuls, H. W. J. M., 13.6.1929</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -102,7 +102,7 @@
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspAction type="received">
-               <persName>Keuls, Henricus Wybrandus Jacobus Maria</persName>
+               <persName ref="#pmb335907">Keuls, Henricus Wybrandus Jacobus Maria</persName>
                <orgName>Internationales Büro für Aufführungsrechte</orgName>
             </correspAction>
             <correspContext>
@@ -111,7 +111,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

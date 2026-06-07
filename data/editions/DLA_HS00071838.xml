@@ -6,9 +6,9 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1924">1924</title>
-            <title level="a">Bassermann, Albert an Schnitzler, Arthur</title>
+            <title level="a">Bassermann, Albert an Schnitzler, Arthur, 1924</title>
             <author ref="#pmb10844">Bassermann, Albert</author>
-            <author>Verschiedene</author>
+            <author ref="#pmb338984">Verschiedene</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -99,7 +99,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb10844">Bassermann, Albert</persName>
-               <persName>Verschiedene</persName>
+               <persName ref="#pmb338984">Verschiedene</persName>
                <date when="1924">1924</date>
             </correspAction>
             <correspAction type="received">
@@ -111,7 +111,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

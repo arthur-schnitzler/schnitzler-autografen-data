@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1931-06-21">21.06.1931</title>
-            <title level="a">Ingelheim, ... von an Schnitzler, Arthur</title>
-            <author>Ingelheim, ... von</author>
+            <title level="a">Ingelheim, ... von an Schnitzler, Arthur, 21.6.1931</title>
+            <author ref="#pmb337833">Ingelheim, ... von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Ingelheim, ... von</persName>
+               <persName ref="#pmb337833">Ingelheim, ... von</persName>
                <date when="1931-06-21">1931-06-21</date>
                <placeName ref="#pmb882">Heidelberg</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_337833">Ingelheim, ... von</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

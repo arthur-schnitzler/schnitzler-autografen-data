@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1896-03-13">13.03.1896</title>
-            <title level="a">Hofmannsthal, Hugo von an Schnitzler, Arthur</title>
+            <title level="a">Hofmannsthal, Hugo von an Schnitzler, Arthur, 13.3.1896</title>
             <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

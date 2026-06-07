@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1907-05-05">05.05.1907</title>
-            <title level="a">Hollaender, Felix an Schnitzler, Arthur</title>
+            <title level="a">Hollaender, Felix an Schnitzler, Arthur, 5.5.1907</title>
             <author ref="#pmb11752">Hollaender, Felix</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

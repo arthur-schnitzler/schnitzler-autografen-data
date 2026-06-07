@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1915" notAfter="1919">1915 - 1919</title>
-            <title level="a">Popper-Lynkeus, Josef an Schnitzler, Olga</title>
+            <title level="a">Popper-Lynkeus, Josef an Schnitzler, Olga, 1915–1919</title>
             <author ref="#pmb2135">Popper-Lynkeus, Josef</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

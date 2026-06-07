@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1921-03-31">31.03.1921</title>
-            <title level="a">Brettschneider, Rudolf H. an Schnitzler, Arthur</title>
-            <author>Brettschneider, Rudolf H.</author>
+            <title level="a">Brettschneider, Rudolf H. an Schnitzler, Arthur, 31.3.1921</title>
+            <author ref="#pmb14526">Brettschneider, Rudolf H.</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Brettschneider, Rudolf H.</persName>
+               <persName ref="#pmb14526">Brettschneider, Rudolf H.</persName>
                <date when="1921-03-31">1921-03-31</date>
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_14526">Brettschneider, Rudolf H.</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

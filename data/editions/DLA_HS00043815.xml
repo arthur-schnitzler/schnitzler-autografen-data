@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1892-01-05">05.01.1892</title>
-            <title level="a">Teweles, Heinrich an Schnitzler, Arthur</title>
+            <title level="a">Teweles, Heinrich an Schnitzler, Arthur, 5.1.1892</title>
             <author ref="#pmb12932">Teweles, Heinrich</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -111,7 +111,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

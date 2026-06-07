@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1931-09-19">19.09.1931</title>
-            <title level="a">Móricz, Emil an Schnitzler, Arthur</title>
+            <title level="a">Móricz, Emil an Schnitzler, Arthur, 19.9.1931</title>
             <author ref="#pmb338287">Móricz, Emil</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

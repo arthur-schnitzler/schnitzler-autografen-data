@@ -6,9 +6,9 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1907-04-18">18.04.1907</title>
-            <title level="a">Drachmann, Holger an Schnitzler, Arthur</title>
+            <title level="a">Drachmann, Holger an Schnitzler, Arthur, 18.4.1907</title>
             <author ref="#pmb6855">Drachmann, Holger</author>
-            <author>Verschiedene</author>
+            <author ref="#pmb338984">Verschiedene</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -99,7 +99,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb6855">Drachmann, Holger</persName>
-               <persName>Verschiedene</persName>
+               <persName ref="#pmb338984">Verschiedene</persName>
                <date when="1907-04-18">1907-04-18</date>
                <placeName ref="#pmb168">Berlin</placeName>
             </correspAction>
@@ -112,7 +112,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

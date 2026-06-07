@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1900-05-22">22.05.1900</title>
-            <title level="a">S..., Risa an Müller, Leopoldine</title>
+            <title level="a">S..., Risa an Müller, Leopoldine, 22.5.1900</title>
             <author>S..., Risa</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -102,13 +102,13 @@
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="#pmb21727">Müller, Leopoldine</persName>
+               <persName ref="#pmb168798">Müller, Leopoldine</persName>
             </correspAction>
 
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

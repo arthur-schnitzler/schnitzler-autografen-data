@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1917" notAfter="1929">1917 - 1929</title>
-            <title level="a">Beer, Rudolf an Schnitzler, Arthur</title>
-            <author ref="#pmb178474">Beer, Rudolf</author>
+            <title level="a">Beer, Rudolf an Schnitzler, Arthur, 1917–1929</title>
+            <author ref="#pmb13920">Beer, Rudolf</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,7 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="#pmb178474">Beer, Rudolf</persName>
+               <persName ref="#pmb13920">Beer, Rudolf</persName>
                <orgName ref="#pmb39666">Raimund-Theater</orgName>
                <date notBefore="1917" notAfter="1929">1917/1929</date>
                <placeName ref="#pmb50">Wien</placeName>
@@ -106,12 +106,12 @@
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ref type="belongsToCorrespondence" target="correspondence_178474">Beer, Rudolf</ref>
+               <ref type="belongsToCorrespondence" target="correspondence_13920">Beer, Rudolf</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

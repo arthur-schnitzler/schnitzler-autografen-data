@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1890" notAfter="1909">1890 - 1909</title>
-            <title level="a">Hofmannsthal, Hugo August Hofmann von an Schnitzler, Arthur</title>
-            <author>Hofmannsthal, Hugo August Hofmann von</author>
+            <title level="a">Hofmannsthal, Hugo August Hofmann von an Schnitzler, Arthur, 1890–1909</title>
+            <author ref="#pmb11737">Hofmannsthal, Hugo August Hofmann von</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Hofmannsthal, Hugo August Hofmann von</persName>
+               <persName ref="#pmb11737">Hofmannsthal, Hugo August Hofmann von</persName>
                <date notBefore="1890" notAfter="1909">1890/1909</date>
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_11737">Hofmannsthal, Hugo August Hofmann von</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

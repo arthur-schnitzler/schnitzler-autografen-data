@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1898-05-06">06.05.1898</title>
-            <title level="a">Lössl, Carl an Schnitzler, Arthur</title>
+            <title level="a">Lössl, Carl an Schnitzler, Arthur, 6.5.1898</title>
             <author ref="#pmb338163">Lössl, Carl</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

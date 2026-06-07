@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1931-02-11">11.02.1931</title>
-            <title level="a">Schnitzler, Arthur an Akademie für Musik und Darstellende Kunst</title>
+            <title level="a">Schnitzler, Arthur an Akademie für Musik und Darstellende Kunst, 11.2.1931</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -101,7 +101,7 @@
                <date when="1931-02-11">1931-02-11</date>
             </correspAction>
             <correspAction type="received">
-               <orgName>Akademie für Musik und Darstellende Kunst</orgName>
+               <orgName ref="#pmb288790">Akademie für Musik und Darstellende Kunst</orgName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_2121">Schnitzler, Arthur</ref>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

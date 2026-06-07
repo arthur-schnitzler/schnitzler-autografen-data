@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1910-09-30">30.09.1910</title>
-            <title level="a">S.-Fischer-Verlag an Heimfelsen, J.</title>
+            <title level="a">S.-Fischer-Verlag an Heimfelsen, J., 30.9.1910</title>
 
             <editor>
                <name>Müller, Martin Anton</name>
@@ -102,13 +102,13 @@
                <placeName ref="#pmb168">Berlin</placeName>
             </correspAction>
             <correspAction type="received">
-               <persName>Heimfelsen, J.</persName>
+               <persName ref="#pmb8175">Heimfelsen, J.</persName>
             </correspAction>
 
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

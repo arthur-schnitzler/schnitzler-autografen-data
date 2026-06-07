@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1969-09-03">03.09.1969</title>
-            <title level="a">Urbach, Reinhard an Schnitzler, Heinrich</title>
+            <title level="a">Urbach, Reinhard an Schnitzler, Heinrich, 3.9.1969</title>
             <author ref="#pmb65504">Urbach, Reinhard</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

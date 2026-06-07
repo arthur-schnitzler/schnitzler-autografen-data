@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1919" notAfter="1923">1919 - 1923</title>
-            <title level="a">Björkman, Carl Viktor Emanuel an Schnitzler, Arthur</title>
-            <author>Björkman, Carl Viktor Emanuel</author>
+            <title level="a">Björkman, Carl Viktor Emanuel an Schnitzler, Arthur, 1919–1923</title>
+            <author ref="#pmb336904">Björkman, Carl Viktor Emanuel</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Björkman, Carl Viktor Emanuel</persName>
+               <persName ref="#pmb336904">Björkman, Carl Viktor Emanuel</persName>
                <date notBefore="1919" notAfter="1923">1919/1923</date>
                <placeName ref="#pmb884">Lübeck</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_336904">Björkman, Carl Viktor Emanuel</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

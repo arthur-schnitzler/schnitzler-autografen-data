@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1925-01-03" notAfter="1925-06-23">03.01.1925 - 23.06.1925</title>
-            <title level="a">Schnitzler, Heinrich an Schnitzler, Arthur</title>
+            <title level="a">Schnitzler, Heinrich an Schnitzler, Arthur, 3.1.1925–23.6.1925</title>
             <author ref="#pmb12692">Schnitzler, Heinrich</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

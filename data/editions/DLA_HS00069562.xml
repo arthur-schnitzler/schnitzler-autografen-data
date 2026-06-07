@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1893-03-23">23.03.1893</title>
-            <title level="a">Unbekannt an Schnitzler, Johann</title>
-            <author>Unbekannt</author>
+            <title level="a">Unbekannt an Schnitzler, Johann, 23.3.1893</title>
+            <author ref="#pmb338967">Unbekannt</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Unbekannt</persName>
+               <persName ref="#pmb338967">Unbekannt</persName>
                <date when="1893-03-23">1893-03-23</date>
                <placeName ref="#pmb104365">Sankt Gallen</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb12695">Schnitzler, Johann</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_338967">Unbekannt</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

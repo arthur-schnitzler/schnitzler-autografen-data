@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1928-01-09">09.01.1928</title>
-            <title level="a">Elias, Julie an Schnitzler, Arthur</title>
-            <author ref="#pmb159920">Elias, Julie</author>
+            <title level="a">Elias, Julie an Schnitzler, Arthur, 9.1.1928</title>
+            <author ref="#pmb4370">Elias, Julie</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,7 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="#pmb159920">Elias, Julie</persName>
+               <persName ref="#pmb4370">Elias, Julie</persName>
                <date when="1928-01-09">1928-01-09</date>
                <placeName ref="#pmb168">Berlin</placeName>
             </correspAction>
@@ -105,12 +105,12 @@
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ref type="belongsToCorrespondence" target="correspondence_159920">Elias, Julie</ref>
+               <ref type="belongsToCorrespondence" target="correspondence_4370">Elias, Julie</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

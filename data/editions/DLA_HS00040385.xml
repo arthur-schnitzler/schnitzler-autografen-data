@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1919-10-26">26.10.1919</title>
-            <title level="a">Meyer-Waldeck, Wolfgang Alexander an Schnitzler, Arthur</title>
+            <title level="a">Meyer-Waldeck, Wolfgang Alexander an Schnitzler, Arthur, 26.10.1919</title>
             <author ref="#pmb338246">Meyer-Waldeck, Wolfgang Alexander</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -111,7 +111,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

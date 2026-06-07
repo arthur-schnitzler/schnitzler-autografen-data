@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1981">1981</title>
-            <title level="a">S.-Fischer-Verlag an Unbekannte</title>
+            <title level="a">S.-Fischer-Verlag an Unbekannte, 1981</title>
 
             <editor>
                <name>Müller, Martin Anton</name>
@@ -102,13 +102,13 @@
                <placeName ref="#pmb146">Frankfurt am Main</placeName>
             </correspAction>
             <correspAction type="received">
-               <persName>Unbekannte</persName>
+               <persName ref="#pmb338969">Unbekannte</persName>
             </correspAction>
 
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

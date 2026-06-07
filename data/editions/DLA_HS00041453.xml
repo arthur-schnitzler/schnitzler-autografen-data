@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1902" notAfter="1918">1902 - 1918</title>
-            <title level="a">Reinhardt, Max an Schnitzler, Arthur</title>
+            <title level="a">Reinhardt, Max an Schnitzler, Arthur, 1902–1918</title>
             <author ref="#pmb12504">Reinhardt, Max</author>
             <author ref="#pmb3025">Kahane, Arthur</author>
             <editor>
@@ -113,7 +113,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

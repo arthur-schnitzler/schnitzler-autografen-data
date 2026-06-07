@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1970-06-15">15.06.1970</title>
-            <title level="a">Serrano, Miguel an Schnitzler, Heinrich</title>
+            <title level="a">Serrano, Miguel an Schnitzler, Heinrich, 15.6.1970</title>
             <author>Serrano, Miguel</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -108,7 +108,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

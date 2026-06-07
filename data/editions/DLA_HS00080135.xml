@@ -6,10 +6,10 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1910">1910</title>
-            <title level="a">Schnitzler, Helene an Schnitzler, Arthur</title>
+            <title level="a">Schnitzler, Helene an Schnitzler, Arthur, 1910</title>
             <author ref="#pmb24423">Schnitzler, Helene</author>
             <author ref="#pmb12698">Schnitzler, Julius</author>
-            <author>Unbekannte</author>
+            <author ref="#pmb338969">Unbekannte</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -101,7 +101,7 @@
             <correspAction type="sent">
                <persName ref="#pmb24423">Schnitzler, Helene</persName>
                <persName ref="#pmb12698">Schnitzler, Julius</persName>
-               <persName>Unbekannte</persName>
+               <persName ref="#pmb338969">Unbekannte</persName>
                <date when="1910">1910</date>
                <placeName ref="#pmb213">Bad Ischl</placeName>
             </correspAction>
@@ -114,7 +114,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

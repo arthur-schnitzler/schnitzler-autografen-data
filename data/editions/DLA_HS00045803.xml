@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1911" notAfter="1929">1911 - 1929</title>
-            <title level="a">Schnitzler, Arthur an Harz, Benjamin</title>
+            <title level="a">Schnitzler, Arthur an Harz, Benjamin, 1911–1929</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -102,7 +102,7 @@
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb17899">Harz, Benjamin</persName>
-               <persName>Verschiedene</persName>
+               <persName ref="#pmb338984">Verschiedene</persName>
                <orgName>J. Singer und Co.</orgName>
             </correspAction>
             <correspContext>
@@ -111,7 +111,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

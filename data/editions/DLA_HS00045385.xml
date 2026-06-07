@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1909" notAfter="1914">1909 - 1914</title>
-            <title level="a">Schnitzler, Arthur an Fred, Alfred W.</title>
+            <title level="a">Schnitzler, Arthur an Fred, Alfred W., 1909–1914</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -101,7 +101,7 @@
                <date notBefore="1909" notAfter="1914">1909/1914</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Fred, Alfred W.</persName>
+               <persName ref="#pmb2226">Fred, Alfred W.</persName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_2121">Schnitzler, Arthur</ref>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1913-06-02">02.06.1913</title>
-            <title level="a">Schnitzler, Arthur an Effenberger, Hans</title>
+            <title level="a">Schnitzler, Arthur an Effenberger, Hans, 2.6.1913</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -101,7 +101,7 @@
                <date when="1913-06-02">1913-06-02</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Effenberger, Hans</persName>
+               <persName ref="#pmb28293">Effenberger, Hans</persName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_2121">Schnitzler, Arthur</ref>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

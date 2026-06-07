@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1882" notAfter="1896">1882 - 1896</title>
-            <title level="a">Hajek, Marcus an Schnitzler, Arthur</title>
-            <author>Hajek, Marcus</author>
+            <title level="a">Hajek, Marcus an Schnitzler, Arthur, 1882–1896</title>
+            <author ref="#pmb2284">Hajek, Marcus</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,7 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Hajek, Marcus</persName>
+               <persName ref="#pmb2284">Hajek, Marcus</persName>
                <date notBefore="1882" notAfter="1896">1882/1896</date>
                <placeName ref="#pmb50">Wien</placeName>
                <placeName>und andere</placeName>
@@ -105,11 +105,13 @@
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_2284">Hajek, Marcus</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

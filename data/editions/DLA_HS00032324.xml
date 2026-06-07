@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1930-04">04.1930</title>
-            <title level="a">Bettelheim-Gabillon, Helene an Schnitzler, Arthur</title>
-            <author>Bettelheim-Gabillon, Helene</author>
+            <title level="a">Bettelheim-Gabillon, Helene an Schnitzler, Arthur, 4.1930</title>
+            <author ref="#pmb35025">Bettelheim-Gabillon, Helene</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Bettelheim-Gabillon, Helene</persName>
+               <persName ref="#pmb35025">Bettelheim-Gabillon, Helene</persName>
                <date when="1930-04">1930-04</date>
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_35025">Bettelheim-Gabillon, Helene</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

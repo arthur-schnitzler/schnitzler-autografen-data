@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1910-05-04">04.05.1910</title>
-            <title level="a">Kaiser, ... an Schnitzler, Arthur</title>
-            <author>Kaiser, ...</author>
+            <title level="a">Kaiser, ... an Schnitzler, Arthur, 4.5.1910</title>
+            <author ref="#pmb179441">Kaiser, ...</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Kaiser, ...</persName>
+               <persName ref="#pmb179441">Kaiser, ...</persName>
                <date when="1910-05-04">1910-05-04</date>
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_179441">Kaiser, ...</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

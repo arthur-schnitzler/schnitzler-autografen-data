@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1913-10-09">09.10.1913</title>
-            <title level="a">Schmutzer, F. an Schnitzler, Arthur</title>
-            <author>Schmutzer, F.</author>
+            <title level="a">Schmutzer, F. an Schnitzler, Arthur, 9.10.1913</title>
+            <author ref="#pmb12689">Schmutzer, F.</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Schmutzer, F.</persName>
+               <persName ref="#pmb12689">Schmutzer, F.</persName>
                <date when="1913-10-09">1913-10-09</date>
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_12689">Schmutzer, F.</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

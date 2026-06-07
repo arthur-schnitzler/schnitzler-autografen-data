@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1897" notAfter="1902">1897 - 1902</title>
-            <title level="a">Hofmeister, Oscar an Schnitzler, Arthur</title>
-            <author>Hofmeister, Oscar</author>
+            <title level="a">Hofmeister, Oscar an Schnitzler, Arthur, 1897–1902</title>
+            <author ref="#pmb18412">Hofmeister, Oscar</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Hofmeister, Oscar</persName>
+               <persName ref="#pmb18412">Hofmeister, Oscar</persName>
                <date notBefore="1897" notAfter="1902">1897/1902</date>
                <placeName ref="#pmb50">Wien</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_18412">Hofmeister, Oscar</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

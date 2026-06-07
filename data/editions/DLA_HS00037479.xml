@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1893" notAfter="1926">1893 - 1926</title>
-            <title level="a">Karpath, Ludwig an Schnitzler, Arthur</title>
-            <author>Karpath, Ludwig</author>
+            <title level="a">Karpath, Ludwig an Schnitzler, Arthur, 1893–1926</title>
+            <author ref="#pmb11885">Karpath, Ludwig</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,7 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Karpath, Ludwig</persName>
+               <persName ref="#pmb11885">Karpath, Ludwig</persName>
                <date notBefore="1893" notAfter="1926">1893/1926</date>
                <placeName ref="#pmb43471">Budapest</placeName>
                <placeName ref="#pmb50">Wien</placeName>
@@ -106,11 +106,13 @@
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_11885">Karpath, Ludwig</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

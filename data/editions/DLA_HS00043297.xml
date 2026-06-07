@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1924-12-18">18.12.1924</title>
-            <title level="a">Simann, ... an Schnitzler, Arthur</title>
-            <author>Simann, ...</author>
+            <title level="a">Simann, ... an Schnitzler, Arthur, 18.12.1924</title>
+            <author ref="#pmb338771">Simann, ...</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Simann, ...</persName>
+               <persName ref="#pmb338771">Simann, ...</persName>
                <date when="1924-12-18">1924-12-18</date>
                <placeName ref="#pmb99457">Oberhollabrunn</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_338771">Simann, ...</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1896-02-28">28.02.1896</title>
-            <title level="a">Landori, ... an Schnitzler, Arthur</title>
-            <author>Landori, ...</author>
+            <title level="a">Landori, ... an Schnitzler, Arthur, 28.2.1896</title>
+            <author ref="#pmb308262">Landori, ...</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Landori, ...</persName>
+               <persName ref="#pmb308262">Landori, ...</persName>
                <date when="1896-02-28">1896-02-28</date>
                <placeName>Frankfurt</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_308262">Landori, ...</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

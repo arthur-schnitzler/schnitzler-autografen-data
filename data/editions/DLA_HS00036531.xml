@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1914-11-14">14.11.1914</title>
-            <title level="a">Heyermans, ... an Schnitzler, Arthur</title>
-            <author>Heyermans, ...</author>
+            <title level="a">Heyermans, ... an Schnitzler, Arthur, 14.11.1914</title>
+            <author ref="#pmb337760">Heyermans, ...</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Heyermans, ...</persName>
+               <persName ref="#pmb337760">Heyermans, ...</persName>
                <date when="1914-11-14">1914-11-14</date>
                <placeName ref="#pmb40709">Amsterdam</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_337760">Heyermans, ...</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

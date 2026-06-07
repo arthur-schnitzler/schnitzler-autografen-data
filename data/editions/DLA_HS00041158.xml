@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1903">1903</title>
-            <title level="a">Réau, L. an Schnitzler, Arthur</title>
-            <author>Réau, L.</author>
+            <title level="a">Réau, L. an Schnitzler, Arthur, 1903</title>
+            <author ref="#pmb23782">Réau, L.</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,7 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Réau, L.</persName>
+               <persName ref="#pmb23782">Réau, L.</persName>
                <date when="1903">1903</date>
                <placeName ref="#pmb30">Salzburg</placeName>
                <placeName ref="#pmb40260">Bozen</placeName>
@@ -106,11 +106,13 @@
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_23782">Réau, L.</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

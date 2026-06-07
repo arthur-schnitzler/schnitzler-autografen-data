@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1903" notAfter="1904">1903 - 1904</title>
-            <title level="a">Gussmann, Elisabeth an Schnitzler, Olga</title>
-            <author>Gussmann, Elisabeth</author>
+            <title level="a">Gussmann, Elisabeth an Schnitzler, Olga, 1903–1904</title>
+            <author ref="#pmb2315">Gussmann, Elisabeth</author>
             <author ref="#pmb12837">Steinrück, Albert</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -98,7 +98,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Gussmann, Elisabeth</persName>
+               <persName ref="#pmb2315">Gussmann, Elisabeth</persName>
                <persName ref="#pmb12837">Steinrück, Albert</persName>
                <date notBefore="1903" notAfter="1904">1903/1904</date>
                <placeName ref="#pmb168">Berlin</placeName>
@@ -109,12 +109,12 @@
                <persName ref="#pmb2173">Schnitzler, Olga</persName>
             </correspAction>
             <correspContext>
-               <ref type="belongsToCorrespondence" target="correspondence_12837">Steinrück, Albert</ref>
+               <ref type="belongsToCorrespondence" target="correspondence_2315">Gussmann, Elisabeth</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

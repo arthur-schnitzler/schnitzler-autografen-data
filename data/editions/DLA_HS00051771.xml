@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1975">1975</title>
-            <title level="a">Österreichische Nationalbibliothek / Theatersammlung an Schnitzler, Heinrich</title>
+            <title level="a">Österreichische Nationalbibliothek / Theatersammlung an Schnitzler, Heinrich, 1975</title>
             <author>Mayerhöfer, Josef</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

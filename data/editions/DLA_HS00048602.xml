@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1920-05-06">06.05.1920</title>
-            <title level="a">Schnitzler, Arthur an Skalek, ...</title>
+            <title level="a">Schnitzler, Arthur an Skalek, ..., 6.5.1920</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -101,7 +101,7 @@
                <date when="1920-05-06">1920-05-06</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Skalek, ...</persName>
+               <persName ref="#pmb338784">Skalek, ...</persName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_2121">Schnitzler, Arthur</ref>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

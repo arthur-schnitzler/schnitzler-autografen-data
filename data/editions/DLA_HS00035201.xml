@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1910-12">12.1910</title>
-            <title level="a">Gomperz, Elise an Schnitzler, Arthur</title>
+            <title level="a">Gomperz, Elise an Schnitzler, Arthur, 12.1910</title>
             <author ref="#pmb178551">Gomperz, Elise</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

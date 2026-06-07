@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1919-09-23">23.09.1919</title>
-            <title level="a">Borchard, ... an Schnitzler, Arthur</title>
-            <author>Borchard, ...</author>
+            <title level="a">Borchard, ... an Schnitzler, Arthur, 23.9.1919</title>
+            <author ref="#pmb337227">Borchard, ...</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,7 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Borchard, ...</persName>
+               <persName ref="#pmb337227">Borchard, ...</persName>
                <orgName ref="#pmb29589">Elegante Welt</orgName>
                <date when="1919-09-23">1919-09-23</date>
                <placeName>Berlin-Charlottenburg</placeName>
@@ -105,11 +105,13 @@
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_337227">Borchard, ...</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

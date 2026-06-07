@@ -6,9 +6,9 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1929-04-24">24.04.1929</title>
-            <title level="a">Hamecker, Elsa von an Schnitzler, Arthur</title>
+            <title level="a">Hamecker, Elsa von an Schnitzler, Arthur, 24.4.1929</title>
             <author ref="#pmb337687">Hamecker, Elsa von</author>
-            <author>Verschiedene</author>
+            <author ref="#pmb338984">Verschiedene</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -99,7 +99,7 @@
          <correspDesc>
             <correspAction type="sent">
                <persName ref="#pmb337687">Hamecker, Elsa von</persName>
-               <persName>Verschiedene</persName>
+               <persName ref="#pmb338984">Verschiedene</persName>
                <date when="1929-04-24">1929-04-24</date>
                <placeName ref="#pmb890">Hannover</placeName>
             </correspAction>
@@ -112,7 +112,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

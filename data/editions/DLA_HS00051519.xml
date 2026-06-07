@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1981" notAfter="1982">1981 - 1982</title>
-            <title level="a">S.-Fischer-Verlag an Niedieck, Gerda</title>
+            <title level="a">S.-Fischer-Verlag an Niedieck, Gerda, 1981–1982</title>
             <author>Mehnert, Karl-Michael</author>
             <author>Jussenhoven, Krista</author>
             <editor>
@@ -111,7 +111,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

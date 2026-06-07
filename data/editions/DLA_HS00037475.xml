@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1893" notAfter="1901">1893 - 1901</title>
-            <title level="a">Karlweis, C. an Schnitzler, Arthur</title>
-            <author>Karlweis, C.</author>
+            <title level="a">Karlweis, C. an Schnitzler, Arthur, 1893–1901</title>
+            <author ref="#pmb13082">Karlweis, C.</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Karlweis, C.</persName>
+               <persName ref="#pmb13082">Karlweis, C.</persName>
                <date notBefore="1893" notAfter="1901">1893/1901</date>
                <placeName ref="#pmb75">Hinterbrühl</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_13082">Karlweis, C.</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

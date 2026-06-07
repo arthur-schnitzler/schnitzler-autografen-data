@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1892-09-03">03.09.1892</title>
-            <title level="a">Henze von Starorypinski, Max an Schnitzler, Arthur</title>
-            <author>Henze von Starorypinski, Max</author>
+            <title level="a">Henze von Starorypinski, Max an Schnitzler, Arthur, 3.9.1892</title>
+            <author ref="#pmb18129">Henze von Starorypinski, Max</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Henze von Starorypinski, Max</persName>
+               <persName ref="#pmb18129">Henze von Starorypinski, Max</persName>
                <date when="1892-09-03">1892-09-03</date>
                <placeName ref="#pmb168">Berlin</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_18129">Henze von Starorypinski, Max</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1907-08-19">19.08.1907</title>
-            <title level="a">Keller, ... an Schnitzler, Arthur</title>
-            <author>Keller, ...</author>
+            <title level="a">Keller, ... an Schnitzler, Arthur, 19.8.1907</title>
+            <author ref="#pmb337922">Keller, ...</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,18 +97,20 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Keller, ...</persName>
+               <persName ref="#pmb337922">Keller, ...</persName>
                <date when="1907-08-19">1907-08-19</date>
                <placeName ref="#pmb44657">Riesa</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
-
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="correspondence_337922">Keller, ...</ref>
+            </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

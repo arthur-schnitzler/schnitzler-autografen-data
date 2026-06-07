@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1913-06-26">26.06.1913</title>
-            <title level="a">Polifka, Auguste an Schnitzler, Arthur</title>
+            <title level="a">Polifka, Auguste an Schnitzler, Arthur, 26.6.1913</title>
             <author ref="#pmb338453">Polifka, Auguste</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

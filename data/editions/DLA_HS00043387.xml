@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1922-09-16">16.09.1922</title>
-            <title level="a">Slekow, Gustav an Schnitzler, Arthur</title>
+            <title level="a">Slekow, Gustav an Schnitzler, Arthur, 16.9.1922</title>
             <author ref="#pmb173039">Slekow, Gustav</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -111,7 +111,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

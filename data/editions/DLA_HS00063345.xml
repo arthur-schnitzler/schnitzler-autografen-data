@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1899-03-27">27.03.1899</title>
-            <title level="a">Reinhard, Therese an Unbekannte</title>
+            <title level="a">Reinhard, Therese an Unbekannte, 27.3.1899</title>
             <author ref="#pmb23215">Reinhard, Therese</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -102,7 +102,7 @@
                <placeName ref="#pmb860">Graz</placeName>
             </correspAction>
             <correspAction type="received">
-               <persName>Unbekannte</persName>
+               <persName ref="#pmb338969">Unbekannte</persName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_23215">Reinhard, Therese</ref>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

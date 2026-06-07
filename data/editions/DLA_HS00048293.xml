@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1923-01-05">05.01.1923</title>
-            <title level="a">Schnitzler, Arthur an Paulsen, Max Johann Heinrich</title>
+            <title level="a">Schnitzler, Arthur an Paulsen, Max Johann Heinrich, 5.1.1923</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -101,7 +101,7 @@
                <date when="1923-01-05">1923-01-05</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Paulsen, Max Johann Heinrich</persName>
+               <persName ref="#pmb12399">Paulsen, Max Johann Heinrich</persName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_2121">Schnitzler, Arthur</ref>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

@@ -9,7 +9,7 @@
             <title level="a">Schnitzler, Arthur: Konvolut Korrespondenzen, Texte, Verträge betreffend Editionen, Übersetzungen, Verfilmungen von Werken Arthur Schnitzlers [Dokumente]</title>
             <author ref="#pmb12692">Schnitzler, Heinrich</author>
             <author ref="#pmb336896">Auclères, Dominique</author>
-            <author>Verschiedene</author>
+            <author ref="#pmb338984">Verschiedene</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -103,7 +103,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

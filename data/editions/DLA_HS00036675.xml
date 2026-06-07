@@ -6,8 +6,8 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" notBefore="1897" notAfter="1899">1897 - 1899</title>
-            <title level="a">Hirsch, Ludwig an Schnitzler, Arthur</title>
-            <author ref="#pmb18298">Hirsch, Ludwig</author>
+            <title level="a">Hirsch, Ludwig an Schnitzler, Arthur, 1897–1899</title>
+            <author ref="#pmb337774">Hirsch, Ludwig</author>
             <editor>
                <name>Müller, Martin Anton</name>
                <name>Jahnke, Selma</name>
@@ -97,7 +97,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="#pmb18298">Hirsch, Ludwig</persName>
+               <persName ref="#pmb337774">Hirsch, Ludwig</persName>
                <date notBefore="1897" notAfter="1899">1897/1899</date>
                <placeName ref="#pmb50">Wien</placeName>
                <placeName>Berlin-Schöneberg</placeName>
@@ -106,12 +106,12 @@
                <persName ref="#pmb2121">Schnitzler, Arthur</persName>
             </correspAction>
             <correspContext>
-               <ref type="belongsToCorrespondence" target="correspondence_18298">Hirsch, Ludwig</ref>
+               <ref type="belongsToCorrespondence" target="correspondence_337774">Hirsch, Ludwig</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

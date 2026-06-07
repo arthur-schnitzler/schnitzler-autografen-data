@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1930-09-18">18.09.1930</title>
-            <title level="a">Schnitzler, Arthur an Fedrigoni, ...</title>
+            <title level="a">Schnitzler, Arthur an Fedrigoni, ..., 18.9.1930</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -101,7 +101,7 @@
                <date when="1930-09-18">1930-09-18</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Fedrigoni, ...</persName>
+               <persName ref="#pmb337459">Fedrigoni, ...</persName>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="correspondence_2121">Schnitzler, Arthur</ref>
@@ -109,7 +109,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

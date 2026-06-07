@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1911-10-18">18.10.1911</title>
-            <title level="a">Metzger, Emy an Schnitzler, Arthur</title>
+            <title level="a">Metzger, Emy an Schnitzler, Arthur, 18.10.1911</title>
             <author ref="#pmb338239">Metzger, Emy</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -110,7 +110,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

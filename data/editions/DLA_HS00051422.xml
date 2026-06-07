@@ -6,7 +6,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Autografen</title>
             <title type="iso-date" when-iso="1954-03-19">19.03.1954</title>
-            <title level="a">Bioglio, Anna Maria di an Schnitzler, Heinrich</title>
+            <title level="a">Bioglio, Anna Maria di an Schnitzler, Heinrich, 19.3.1954</title>
             <author>Bioglio, Anna Maria di</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -108,7 +108,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="proposed">
-         <change who="MAM" when="2026-04-08">Angelegt aus DLA-Daten</change>
+         <change who="MAM" when="2026-04-09">Angelegt aus DLA-Daten</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
